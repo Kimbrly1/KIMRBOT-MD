@@ -23,10 +23,10 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
 //m.react('📩') 
 await conn.sendMessage(m.chat, { react: { text: '📩', key: m.key } })
-let regbot = `╭━ • 📇 𝖱𝖾𝗀𝗂𝗌𝗍𝗋𝖺𝖽𝗈 📇 • ━╮
-┃ *🌩Nombre*: ${name}
+let regbot = `╭━ •  ✅Verificado Correctamente ✅  • ━╮
+┃ *👤Nombre*: ${name}
 ┃ *⚡️Edad:* ${age} años
-┃ *🔮Numero De Serie:* 
+┃ *📉Su ID es:* 
 ┃ ${sn}
 ╰━━━━━━━ ⸙ ━━━━━━━╯`
 await m.reply(regbot)
