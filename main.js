@@ -400,7 +400,7 @@ global.reloadHandler = async function(restatConn) {
   }
 
  conn.welcome = '*╭ﾟ♡ﾟ* @subject *ﾟ♡ﾟ*\n┃✎﹏ *BIENVENIDO(A)!!*\n┃✎﹏ @user\n┃✎﹏ *LEA LA DESCRIPCIÓN DEL GRUPO*\n*╰ﾟ･:✿｡･ﾟ♡ﾟ𝑫𝑰𝑬𝑮𝑶 𝑶𝑭𝑪 ﾟ♡ﾟ･｡✿:･ﾟ*\n\n@desc';
-  conn.bye = '*╭══════ ⎘『 ♡ 』⎗ ══════╮*\n╏ @user\n╏ *NO LE SABE AL GRUPO, CHAO!!* 😸\n*╰══════ ⎘『 ♡ 』⎗ ══════╯*';
+  conn.bye = '｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒｡･ﾟ♡ﾟ🧸｡･\n┏━━•◦🥊𝗬𝗲𝗿𝗮𝘆𝗕𝗼𝘁-𝗠𝗗🤖•◦ ━━┓\n┃ 𝖡𝗂𝖾𝗇𝗏𝖾𝗇𝗂𝖽𝗈/𝖺:\n┃ @user\n┃ *𝖫𝖾𝖾 𝗅𝖺 𝖽𝖾𝗌𝖼 𝖽𝖾𝗅 𝗀𝗋𝗎𝗉𝗈 𝗒 𝖽𝗂𝗌𝖿𝗋𝗎𝗍𝖺*\n┃ *𝗍𝗎 𝖾𝗌𝗍𝖺𝖽𝗂𝖺*❤‍🩹\n┗━ •◦ ｡･ﾟ♡ﾟ･｡🍓｡･ﾟ♡ﾟ･｡🍒•◦ ━┛\n•𝖣𝖾𝗌𝖼: @desc';
   conn.spromote = '@user\n𝗔𝗛𝗢𝗥𝗔 𝗘𝗦 𝗔𝗗𝗠𝗜𝗡 𝗗𝗘 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢.';
   conn.sdemote = '@user\n𝗗𝗘𝗝𝗔 𝗗𝗘 𝗦𝗘𝗥 𝗔𝗗𝗠𝗜𝗡 𝗘𝗡 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢.';
   conn.sDesc = '𝗟𝗔 𝗡𝗨𝗘𝗩𝗔 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡 𝗗𝗘𝗟 𝗚𝗥𝗨𝗣𝗢 𝗘𝗦 :\n\n@desc';
