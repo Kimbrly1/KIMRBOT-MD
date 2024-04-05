@@ -20,8 +20,8 @@ export async function before(m, {conn, isAdmin, isBotAdmin, text}) {
       if (m.text.includes(linkThisGroup2)) return !0;
       if (m.text.includes(linkThisGroup3)) return !0;
     }
-    await this.sendMessage(m.chat, {text: `*¡Enlace detectado!, Mandaste un enlace prohibido por lo cual seras eliminado*`, mentions: [m.sender]}, {quoted: m});
-    if (!isBotAdmin) return m.reply('🌹 *No soy admin, no puedo eliminar intrusos*');
+    await this.sendMessage(m.chat, {text: `*⚠️¡Enlace detectado!⚠️, Mandaste un enlace prohibido por lo cual seras eliminado*`, mentions: [m.sender]}, {quoted: m});
+    if (!isBotAdmin) return m.reply('🤖🥊 *No soy admin, no puedo eliminar a un inservible 🫤*');
     if (isBotAdmin && bot.restrict) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
