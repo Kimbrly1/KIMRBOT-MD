@@ -11,19 +11,19 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
   const user = `@${m.sender.split`@`[0]}`;
   const isGroupLink = linkRegex.exec(m.text);
   const grupo = `https://chat.whatsapp.com`;
-  if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply('😸 *Hey!! el anti link esta activo pero eres admin, ¡salvado!*');
+  if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply('☠️ *⚠️Hey Alto⚠️!! el anti link esta activo pero eres admin, ¡Estás salvado por el Dios eterno 🌅!*');
   if (chat.antiLink && isGroupLink && !isAdmin) {
     if (isBotAdmin) {
       const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`;
       if (m.text.includes(linkThisGroup)) return !0;
     }
     await this.sendMessage(m.chat, {text: `*¡Enlace detectado!, Mandaste un enlace prohibido por lo cual seras eliminado*`, mentions: [m.sender]}, {quoted: m});
-    if (!isBotAdmin) return m.reply('🌹 *No soy admin, no puedo eliminar intrusos*');
+    if (!isBotAdmin) return m.reply('🤖🥊 *No soy admin, no puedo eliminar a un inservible 🫤*');
     if (isBotAdmin && bot.restrict) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       if (responseb[0].status === '404') return;
-    } else if (!bot.restrict) return m.reply('*¡Esta característica esta desactivada!*');
+    } else if (!bot.restrict) return m.reply('*¡Mi sistema me a detectado que está desactivado 😥💔!*');
   }
   return !0;
 }
