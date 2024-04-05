@@ -19,9 +19,9 @@ ____██▓▒░________░▒▓██
 _____██▓▒░_____░▒▓██
 ______██▓▒░__░▒▓██
 _______█▓▒░░▒▓██
-_________░▒▓██
-_______░▒▓██
-_____░▒▓██\n\e[0m" 
+________░▒▓██
+______░▒▓██
+____░▒▓███\n\e[0m" 
 
 echo -e "\033[01;93mPreparando instalación...\nPreparing installation...\n\033[0m"
 echo -e "\033[01;32m\033[01mInstalando dependencias!!\nInstalling dependencies!!\n\033[0m" 
