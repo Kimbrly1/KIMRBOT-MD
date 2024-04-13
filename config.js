@@ -60,21 +60,21 @@ global.imagen7 = fs.readFileSync('./AhoraQue.png');
 global.imagen8 = fs.readFileSync('./Que.jpg');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial De SakuraBot
+global.gp1 = 'https://chat.whatsapp.com/KPZpP0VnlA875UpXCDPc0E' //Grupo Oficial De YerayBot
 
-global.gp2 = 'https://chat.whatsapp.com/KITv2RmsFg75Vl3t5iuEfM' //Grupo SakuraBotLite Test 
+global.gp2 = 'https://chat.whatsapp.com/EBrkzuIFCQfGCD6dfxjEFk' //𝘽 𝘖 𝘛 𝘚 :  𝙈 𝘝 𝘗 🔥🤖
 
-global.gp3 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y SakuraBot
+global.gp3 = 'https://chat.whatsapp.com/Djzqsr8k0onE9v1PoSAJwz' //SEBAS BOT-MD✅
 
-global.gp4 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y SakuraBot
+global.gp4 = 'https://chat.whatsapp.com/GFJQei0YqQFCaxaGM6wwXW' //SebastianBot - Community 👽💥
 
-global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
+global.channel = 'https://whatsapp.com/channel/0029VaWIVax2975INZkaGi0s' //Canal Oficial
 
-global.yt = 'https://www.youtube.com/@SakuraBotLite' //Canal De Youtube
+global.yt = 'https://www.youtube.com/@sebas.mvp_official' //Canal De Youtube
 
-global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD' //Github Oficial
+global.md = 'https://github.com/ale-rmz/YerayBot-MD' //Github Oficial
 
-global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
+global.fb = 'https://www.facebook.com/profile.php?id=100091794702798' //Facebook Del Propietario
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶 𝑹𝑷𝑮◞ • ⚔
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
