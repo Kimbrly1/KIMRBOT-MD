@@ -27,7 +27,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ││☠️  *Xp:* ${exp}
  ││📅 *Fecha:* ${date}
  ││🕒 *Hora:* ${moment.tz('America/Guayaquil').format('HH:mm:ss')}
- ││👑 *Creator:* Wa.me/593992402778
  │╰─────────────────
  ╰─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ ---  
 
