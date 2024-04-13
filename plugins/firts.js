@@ -7,18 +7,14 @@ if (m.chat.endsWith('broadcast') || m.fromMe || m.isGroup) return
 let user = global.db.data.users[m.sender]
 
 if (new Date() - user.pc < 21600000) return
-await m.reply(`👋 Hola ${username}¡!
+await m.reply(`⚠👽 Hey Humeno.. ${username}¡!
  *${saludo}*
 
-*⚠️ Nota:* No Envié Spam Al Bot!
+*⚠️ Nota:* *No Esta Permitido Escribirme Por Privado*
 ⚡️ Escriba !menu Para Ver Los Comandos Que Dispongo!
 
-*🥀 Si Tienes Duda O Sugerencia Contacta A Mi Creador: 📍*
-💖 +57 301 2482597 🧸
-
-*⚡️ Escribe !grupos Para Ver Los Grupos Oficiales Del Bot 🦊*
-
-📍 ¿Quieres Apoyar En El Proyecto Del Bot Para Que Siempre Tenga Actualizaciones? Puedes Apoyarnos Con Una Estrellita🌟 Al Repositorio.`)
+*⚡ Si Tienes Duda O Sugerencia Contacta A Mi Creador: 🌴*
+👑 Wa.me/593992402778 ⚡`)
 
 user.pc = new Date * 1
 }
