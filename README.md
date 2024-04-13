@@ -1,6 +1,6 @@
 > 🤖Versión Del Bot: 1.0.7
 
-### 𝐒𝐞𝐛𝐚𝐬𝐭𝐢𝐚𝐧 : 𝘽𝙤𝙩 - 𝙈𝘿🤖🥊
+### 𝗬𝗲𝗿𝗮𝘆 : 𝘽𝙤𝙩 - 𝙈𝘿🤖🥊
 <p align="center">
 <img src="https://images.wallpapersden.com/image/download/michael-jackson-close-up-wallpapers_aWVua2WUmZqaraWkpJRnamtlrWZrZWU.jpg" width="900"/>
 </p>
@@ -34,7 +34,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/seasss123/SebastianBotLite-MD && cd SebastianBotLite-MD
+git clone https://github.com/ale-rmz/YerayBot-MD && cd YerayBot-MD
 ```
 ```bash
 yarn install && npm install
@@ -54,8 +54,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 - ### 📍Obtener Otro Codigo Qr👨‍💻 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd SebastianBotLite-MD
-> rm -rf SebastianBotSession
+> cd YerayBot-MD
+> rm -rf YerayBotSession
 > npm start
 ```
 
