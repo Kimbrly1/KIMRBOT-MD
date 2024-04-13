@@ -1554,19 +1554,19 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*¡Este Comando Es Exclusivo Para Mi Desarrollador!*',
-    owner: '*¡El Uso Del Comando Solo Lo Puede Usar Mi Desarrollador!*',
-    mods: '*¡Esta Función Solo Lo Puede Utilizar Mi Propietario!*',
-    premium: '*¡Esta Función Solo Se Puede Usar Por Los Usuarios Premium*',
-    group: '*¡Esta Función Solo Se Puede Usar En Grupos!*',
-    private: '*¡Esta Función Solo Se Puede Utilizar Al Chat Privado Del Bot!*',
-    admin: '*¡Esta Función Solo Se Puede Utilizar Por Un Admin Del Grupo!*',
-    botAdmin: '*!𝙀𝙨 𝙉𝙚𝙘𝙚𝙨𝙖𝙧𝙞𝙤 𝙌𝙪𝙚 𝙀𝙡 𝘽𝙤𝙩 𝙎𝙚𝙖 𝘼𝙙𝙢𝙞𝙣 𝙋𝙖𝙧𝙖 𝙐𝙩𝙞𝙡𝙞𝙯𝙖𝙧 𝙀𝙨𝙩𝙚 𝘾𝙤𝙢𝙖𝙣𝙙𝙤!*',
-    unreg: '*¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!verificar nombre.edad\n\n*Uso Correcto* : !verificar Yeray.18',
-    restrict: '*!Esta Función Fué Deshabilitado Por Mi Desarrollador*',
+    rowner: '*¡𝐄𝐬𝐭𝐞 𝐂𝐨𝐦𝐚𝐧𝐝𝐨 𝐄𝐬 𝐄𝐱𝐜𝐥𝐮𝐬𝐢𝐯𝐨 𝐏𝐚𝐫𝐚 𝐌𝐢 𝐃𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐚𝐝𝐨𝐫!*',
+    owner: '*¡𝐄𝐥 𝐔𝐬𝐨 𝐃𝐞𝐥 𝐂𝐨𝐦𝐚𝐧𝐝𝐨 𝐒𝐨𝐥𝐨 𝐋𝐨 𝐏𝐮𝐞𝐝𝐞 𝐔𝐬𝐚𝐫 𝐌𝐢 𝐃𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐚𝐝𝐨𝐫!*',
+    mods: '*¡𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢ó𝐧 𝐒𝐨𝐥𝐨 𝐋𝐨 𝐏𝐮𝐞𝐝𝐞 𝐔𝐭𝐢𝐥𝐢𝐳𝐚𝐫 𝐌𝐢 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨!*',
+    premium: '*¡𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢ó𝐧 𝐒𝐨𝐥𝐨 𝐒𝐞 𝐏𝐮𝐞𝐝𝐞 𝐔𝐬𝐚𝐫 𝐏𝐨𝐫 𝐋𝐨𝐬 𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬 𝐏𝐫𝐞𝐦𝐢𝐮𝐦!*',
+    group: '*¡𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢ó𝐧 𝐒𝐨𝐥𝐨 𝐒𝐞 𝐏𝐮𝐞𝐝𝐞 𝐔𝐬𝐚𝐫 𝐄𝐧 𝐆𝐫𝐮𝐩𝐨𝐬!*',
+    private: '*¡𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢ó𝐧 𝐒𝐨𝐥𝐨 𝐒𝐞 𝐏𝐮𝐞𝐝𝐞 𝐔𝐭𝐢𝐥𝐢𝐳𝐚𝐫 𝐀𝐥 𝐂𝐡𝐚𝐭 𝐏𝐫𝐢𝐯𝐚𝐝𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭!*',
+    admin: '*¡𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢ó𝐧 𝐒𝐨𝐥𝐨 𝐒𝐞 𝐏𝐮𝐞𝐝𝐞 𝐔𝐭𝐢𝐥𝐢𝐳𝐚𝐫 𝐏𝐨𝐫 𝐔𝐧 𝐀𝐝𝐦𝐢𝐧 𝐃𝐞𝐥 𝐆𝐫𝐮𝐩𝐨!*',
+    botAdmin: '*¡𝙀𝙨 𝙉𝙚𝙘𝙚𝙨𝙖𝙧𝙞𝙤 𝙌𝙪𝙚 𝙀𝙡 𝘽𝙤𝙩 𝙎𝙚𝙖 𝘼𝙙𝙢𝙞𝙣 𝙋𝙖𝙧𝙖 𝙐𝙩𝙞𝙡𝙞𝙯𝙖𝙧 𝙀𝙨𝙩𝙚 𝘾𝙤𝙢𝙖𝙣𝙙𝙤!*',
+    unreg: '*¡𝐏𝐚𝐫𝐚 𝐂𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐂𝐨𝐧 𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢ó𝐧 𝐄𝐬 𝐍𝐞𝐜𝐞𝐬𝐚𝐫𝐢𝐨 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐫𝐬𝐞!*\n\n!verificar nombre.edad\n\n*Uso Correcto* : !verificar Yeray.18',
+    restrict: '*¡𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢ó𝐧 𝐅𝐮é 𝐃𝐞𝐬𝐡𝐚𝐛𝐢𝐥𝐢𝐭𝐚𝐝𝐨 𝐏𝐨𝐫 𝐌𝐢 𝐃𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐚𝐝𝐨𝐫!*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 💥', body: '❀ 𝑆𝑢𝑝𝑒𝑟 𝐵𝑜𝑡 𝐷𝑒 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 ❀', thumbnail: imagen6, sourceUrl: 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 💥', body: '❀ 𝑆𝑢𝑝𝑒𝑟 𝐵𝑜𝑡 𝐷𝑒 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 ❀', thumbnail: imagen6, sourceUrl: 'https://whatsapp.com/channel/0029VaWIVax2975INZkaGi0s'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
