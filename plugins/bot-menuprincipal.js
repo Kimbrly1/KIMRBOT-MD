@@ -11,36 +11,31 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
         const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
-  const fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': saludo, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${saludo},;;;\nFN:${saludo},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}};
-    await conn.reply(m.chat, '*ꪹ͜𓂃͡𝑪𝑨𝑹𝑮𝑨𝑵𝑫𝑶 𝑬𝑳 𝑴𝑬𝑵𝑼 𝑫𝑬𝑳 𝑩𝑶𝑻...𓏲੭*',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋 ¡𝗛𝗼𝗹𝗮!', body: '🤖🥊𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿🤖🥊', sourceUrl: global.channel, thumbnail: await (await fetch(pp)).buffer() }}})
+  let fkon = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+    await conn.reply(m.chat, '*𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...*', fkon, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '💥 ¡𝗛𝗼𝗹𝗮!', body: '𝒀𝒆𝒓𝒂𝒚𝑩𝒐𝒕-𝑴𝑫🌴', sourceUrl: global.yt, thumbnail: await (await fetch(pp)).buffer() }}})
 //m.react('📍');
     await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
-  let txt =`╭✦⢄✩*⢄⢁ ✩*⢄✧⡠*✩⡠*✩⡠✦╮
-│╭─────────────────
-││   「 *INFO USUARIO 🪪*
-│├━━━━━━━━━━━━━━━━╯
-││•🪪  *Nombre:* ${taguser}
-││•🪪 *Nivel:* ${level}
-││•🪪 *Exp:* ${exp}
-││•🪪 *Pais:* ${nombreLugar}
-││
-╰─ - ✦⢄⢁✩*⢄⢁✧⡠*✩⡈⡠✦ - ─╯
- 
- ╭✦⢄✩*⢄⢁ ✩*⢄✧⡠*✩⡠*✩⡠✦╮
-│╭─────────────────
-││    「 *INFO BOT 🤖*
-│├━━━━━━━━━━━━━━━━╯
-││•👥 *CREADORES:* Alee.mvp / Sebas.mvp 
-││•🕒 *Tiempo Activo:* ${muptime}
-││•🗓️ *USUARIOS REGISTRADOS:*${rtotalreg} De ${totalreg}
-││•📆 *FECHA:* ${date}
-││
-╰─ - ✦⢄⢁✩*⢄⢁✧⡠*✩⡈⡠✦ - ─╯
+  let txt =`╭*۰꒷⏝꒷۰꒷.✦˖ ࣪ ִֶָ  ★ ˖ ࣪ ִֶָ ۰✦.꒷۰꒷⏝*
+
+ *★ 𝒀𝒆𝒓𝒂𝒚𝑩𝒐𝒕-𝑴𝑫 ★*
+ ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
+ │╭─────────────────
+ ││👤 *Nombre:* ${taguser}
+ ││💲 *Dólares:* ${joincount}
+ ││💯 *Nivel:* ${level}
+ ││⚡ *Coins:* ${money}
+ ││☠️  *Xp:* ${exp}
+ ││📅 *Fecha:* ${date}
+ ││🕒 *Hora:* ${moment.tz('America/Guayaquil').format('HH:mm:ss')}
+ ││👑 *Creator:* Wa.me/593992402778
+ │╰─────────────────
+ ╰─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ ---  
+
 
  ╭─❒ 「 *INFORMACIÓN 📄* 」
- │•📄  _*!help*_
- │•📄 _*!allmenu*_
- │•📄 _*!owner*_
+ │•📄 *_!help_*
+ │•📄 *_!allmenu_*
+ │•📄 *_!owner_*
  │•📄 *_!contacto_*
  │•📄 *_!creador_*
  │•📄 *_!contactos_*
@@ -48,7 +43,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  │•📄 *_!creditos_*
  │•📄 *_!credits_*
  │•📄 *_!thanks_*
- │•📄  *_!thanksto_*
+ │•📄 *_!thanksto_*
  │•📄 *_!cuentasoficiales_*
  │•📄 *_!cuentasofc_* 
  │•📄 *_!cuentas_*
@@ -56,9 +51,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  │•📄 *_!dash_*
  │•📄 *_!dashboard_*
  │•📄 *_!views_*
- │•📄  *_!database_*
- │•📄  *_!usuarios>_*
- │•📄  *_!user_*
+ │•📄 *_!database_*
+ │•📄 *_!usuarios>_*
+ │•📄 *_!user_*
  │•📄 *_!donar_*
  │•📄 *_!donate_*
  │•📄 *_!donasi_*
@@ -72,7 +67,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  │•👥 *_!add_*
  │•👥 *_!admins_*
  │•👥 *_!aprobar_*
- │•👥 *_!group open / close_**
  │•👥 *_!grupo abrir / cerrar_*
  │•👥 *_!demote_*
  │•👥 *_hidetag_*
@@ -107,70 +101,70 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  │ •🎮 *_!advpe_*
  │ •🎮 *_!adv_*
  │ •🎮 *_!película_*
- │ •🎮  *_!películas_*
- │ •🎮  *_!cancion_*
- │ •🎮  *_!delttt_*
- │ •🎮  *_!delttc_*
- │ •🎮  *_!delxo_*
- │ •🎮  *_!doxear_*
- │ •🎮  *_!doxeo_*
- │ •🎮  *_!doxxeo_*
- │ •🎮  *_!gay_*
- │ •🎮  *_!los10_*
- │ •🎮  *_!mates_*
- │ •🎮  *_!personalidad_*
- │ •🎮  *_!pregunta_*
- │ •🎮  *_!reto_*
- │ •🎮  *_!fap_*
- │ •🎮  *_!ship_*
- │ •🎮  *_!simi_*
- │ •🎮  *_!slot_*
- │ •🎮  *_!buscarpalabra_*
- │ •🎮  *_!sopa_*
- │ •🎮  *_!soup_*
- │ •🎮  *_!spdepalabras_*
- │ •🎮  *_!tictactoe_*
- │ •🎮  *_!topgays_*
- │ •🎮  *_!topotakus_*
- │ •🎮  *_!topheteros_*
+ │ •🎮 *_!películas_*
+ │ •🎮 *_!cancion_*
+ │ •🎮 *_!delttt_*
+ │ •🎮 *_!delttc_*
+ │ •🎮 *_!delxo_*
+ │ •🎮 *_!doxear_*
+ │ •🎮 *_!doxeo_*
+ │ •🎮 *_!doxxeo_*
+ │ •🎮 *_!gay_*
+ │ •🎮 *_!los10_*
+ │ •🎮 *_!mates_*
+ │ •🎮 *_!personalidad_*
+ │ •🎮 *_!pregunta_*
+ │ •🎮 *_!reto_*
+ │ •🎮 *_!fap_*
+ │ •🎮 *_!ship_*
+ │ •🎮 *_!simi_*
+ │ •🎮 *_!slot_*
+ │ •🎮 *_!buscarpalabra_*
+ │ •🎮 *_!sopa_*
+ │ •🎮 *_!soup_*
+ │ •🎮 *_!spdepalabras_*
+ │ •🎮 *_!tictactoe_*
+ │ •🎮 *_!topgays_*
+ │ •🎮 *_!topotakus_*
+ │ •🎮 *_!topheteros_*
  ╰───────────
 
  ╭─❒ 「 *DESCARGAS 🚀* 」
-│ •🚀  *_!instagram<enlace / link / url>_*
-│ •🚀  *_!mediafire *<enlace / link / url>_*
-│•🚀  *_gitclone *<enlace / link / url>_*
-│•🚀  *_!gdrive *<enlace / link / url>_*
-│•🚀  *_!tiktok <enlace / link / url>_*
-│•🚀  *_!tiktokimg *<enlace / link/ url>_*
-│•🚀  *_!xnxxdl *<enlace / link / url>_*
-│•🚀  *_!xvideosdl *<enlace / link / url>_*
-│•🚀  *_!twitter *<enlace / link / url>_*
-│•🚀  *_!fb *<enlace / link / url>_*
-│•🚀  *_!ytshort *<enlace / link / url>_*
-│•🚀  *_!ytmp3 *<enlace / link / url>_*
-│•🚀  *_!ytmp4 *<enlace / link / url>_*
-│•🚀  *_!ytmp3doc *<enlace / link / url>_*
-│•🚀  *_!ytmp4doc *<enlace / link / url>_*
-│•🚀  *_!videodoc *<enlace / link / url>_*
-│•🚀  *_!dapk2 *<enlace / link / url>_*
-│•🚀  *_!stickerpack *<enlace / link / url>_*
-│•🚀  *_!play *<texto>_*
-│•🚀  *_!play2 *<texto>_*
-│•🚀  *_!play.1 *<texto>_*
-│•🚀  *_!play.2 *<texto>_*
-│•🚀  *_!playdoc *<texto>_*
-│•🚀  *_!playdoc2 *<texto>_*
-│•🚀  *_!playlist *<texto>_*
-│•🚀  *_!spotify *<texto>_*
-│•🚀  *_!ringtone *<texto>_*
-│•🚀  *_!soundcloud *<texto>_*
-│•🚀  *_!imagen *<texto>*
-│•🚀  *_!pinterest *<texto>_*
-│•🚀  *_!wallpaper *<texto>_*
-│•🚀  *_!pptiktok *<nombre de usuario>_*
-│•🚀  *_!igstalk *<nombre de usuario>_*
-│•🚀  *_!igstory *<nombre de usuario>_*
-│•🚀  *_!tiktokstalk *<username>_*
+ │•🚀  *_!instagram<enlace / link / url>_*
+ │•🚀  *_!mediafire *<enlace / link / url>_*
+ │•🚀  *_gitclone *<enlace / link / url>_*
+ │•🚀  *_!gdrive *<enlace / link / url>_*
+ │•🚀  *_!tiktok <enlace / link / url>_*
+ │•🚀  *_!tiktokimg *<enlace / link/ url>_*
+ │•🚀  *_!xnxxdl *<enlace / link / url>_*
+ │•🚀  *_!xvideosdl *<enlace / link / url>_*
+ │•🚀  *_!twitter *<enlace / link / url>_*
+ │•🚀  *_!fb *<enlace / link / url>_*
+ │•🚀  *_!ytshort *<enlace / link / url>_*
+ │•🚀  *_!ytmp3 *<enlace / link / url>_*
+ │•🚀  *_!ytmp4 *<enlace / link / url>_*
+ │•🚀  *_!ytmp3doc *<enlace / link / url>_*
+ │•🚀  *_!ytmp4doc *<enlace / link / url>_*
+ │•🚀  *_!videodoc *<enlace / link / url>_*
+ │•🚀  *_!dapk2 *<enlace / link / url>_*
+ │•🚀  *_!stickerpack *<enlace / link / url>_*
+ │•🚀  *_!play *<texto>_*
+ │•🚀  *_!play2 *<texto>_*
+ │•🚀  *_!play.1 *<texto>_*
+ │•🚀  *_!play.2 *<texto>_*
+ │•🚀  *_!playdoc *<texto>_*
+ │•🚀  *_!playdoc2 *<texto>_*
+ │•🚀  *_!playlist *<texto>_*
+ │•🚀  *_!spotify *<texto>_*
+ │•🚀  *_!ringtone *<texto>_*
+ │•🚀  *_!soundcloud *<texto>_*
+ │•🚀  *_!imagen *<texto>*
+ │•🚀  *_!pinterest *<texto>_*
+ │•🚀  *_!wallpaper *<texto>_*
+ │•🚀  *_!pptiktok *<nombre de usuario>_*
+ │•🚀  *_!igstalk *<nombre de usuario>_*
+ │•🚀  *_!igstory *<nombre de usuario>_*
+ │•🚀  *_!tiktokstalk *<username>_*
  ╰───────────
 
  ╭─❒ 「 *❌️Enable / Disable ✅️* 」
@@ -179,34 +173,34 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ╰───────────
 
  ╭─❒ 「 *Buscadores 🔎* 」
-│•🔎 *_!githubsearch <texto>_*
-│•🔎 *_!modapk <texto>_*
-│•🔎 *_!stickersearch <texto>_*
-│•🔎 *_!stickersearch2 <texto>_*
-│•🔎 *_!xnxxsearch <texto>_*
-│•🔎 *_!animeinfo  <texto>_*
-│•🔎 *_!google  <texto>_*
-│•🔎 *_!letra  <texto>_*
-│•🔎 *_!wikipedia  <texto>_*
-│•🔎 *_!ytsearch <texto>_*
-│•🔎 *_!playstore <texto>_*
+ │•🔎 *_!githubsearch <texto>_*
+ │•🔎 *_!modapk <texto>_*
+ │•🔎 *_!stickersearch <texto>_*
+ │•🔎 *_!stickersearch2 <texto>_*
+ │•🔎 *_!xnxxsearch <texto>_*
+ │•🔎 *_!animeinfo  <texto>_*
+ │•🔎 *_!google  <texto>_*
+ │•🔎 *_!letra  <texto>_*
+ │•🔎 *_!wikipedia  <texto>_*
+ │•🔎 *_!ytsearch <texto>_*
+ │•🔎 *_!playstore <texto>_*
  ╰───────────
 
  ╭─❒ 「  *CONVERTIDORES🔊* 」
-│•🔊 *_!toanime <imagen>_*
-│•🔊 *_!togifaud <video>_*
-│•🔊 *_!toimg <sticker>_*
-│•🔊 *_!tomp3 <video>_*
-│•🔊 *_!tomp3 <nota de voz>_*
-│•🔊 *_!toptt <video / audio>_*
-│•🔊 *_!tovideo <sticker>_*
-│•🔊 *_!tourl <video / imagen / audio>_*
-│•🔊 *_!tts <idioma> <texto>_*
-│•🔊 *_!tts <efecto> <texto>_*
+ │•🔊 *_!toanime <imagen>_*
+ │•🔊 *_!togifaud <video>_*
+ │•🔊 *_!toimg <sticker>_*
+ │•🔊 *_!tomp3 <video>_*
+ │•🔊 *_!tomp3 <nota de voz>_*
+ │•🔊 *_!toptt <video / audio>_*
+ │•🔊 *_!tovideo <sticker>_*
+ │•🔊 *_!tourl <video / imagen / audio>_*
+ │•🔊 *_!tts <idioma> <texto>_*
+ │•🔊 *_!tts <efecto> <texto>_*
  ╰───────────
 
  ╭─❒ 「 *STICKERS 🧩* 」
- │•🧩  _*!sticker <responder a imagen o video>*_
+ │•🧩 _*!sticker <responder a imagen o video>*_
  │•🧩 _*!sticker <enlace / link / url>*_
  │•🧩 _*!sticker2 <responder a imagen o video>*_
  │•🧩 _*!sticker2 <enlace / link / url>*_
@@ -237,7 +231,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ╭─❒ 「 *RPG 💰* 」
  │•💰 *_!adventure_*
  │•💰 *_!cazar_*
- │•💰 _*!cofre*_
+ │•💰 *_!cofre_*
  │•💰 *_!balance_*
  │•💰 *_!claim_*
  │•💰 *_!heal_*
@@ -246,30 +240,30 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  │•💰 *_!myns_*
  │•💰 *_!perfil_*
  │•💰 *_!work_*
- │•💰 _*!minar*_
+ │•💰 *_!minar_*
  │•💰 *_!minar2_*
  │•💰 *_!buy_*
  │•💰 *_!buyall_*
  │•💰 *_!verificar_*
  │•💰 *_!robar <cantidad> <@tag>_*
- │•💰 *_!transfer <tipo> <cantidad> <@tag>*_
- │•💰 _! *unreg <numero de serie>*_
+ │•💰 *_!transfer <tipo> <cantidad> <@tag>_*
+ │•💰 *_unreg <numero de serie>_*
  ╰───────────
 
  ╭─❒ 「 *Audios - Efectos 🎶* 」
-│•🎤 *𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘈 𝘜𝘯𝘢 𝘕𝘰𝘵𝘢 𝘋𝘦 𝘈𝘶𝘥𝘪𝘰*
-│•🎤 *_!bass_*
-│•🎤 *_!blown_*
-│•🎤 *_!deep_*
-│•🎤 *_!earrape_*
-│•🎤 *_fast_*
-│•🎤 *_!fat_*
-│•🎤 *_!nightcore_*
-│•🎤 *_!reverse_*
-│•🎤 *_!robot_*
-│•🎤 _*!slow*_
-│•🎤 _*!smooth*_
-│•🎤 *_!tupai_*
+ │•🎤 *𝘙𝘦𝘴𝘱𝘰𝘯𝘥𝘦 𝘈 𝘜𝘯𝘢 𝘕𝘰𝘵𝘢 𝘋𝘦 𝘈𝘶𝘥𝘪𝘰*
+ │•🎤 *_!bass_*
+ │•🎤 *_!blown_*
+ │•🎤 *_!deep_*
+ │•🎤 *_!earrape_*
+ │•🎤 *_fast_*
+ │•🎤 *_!fat_*
+ │•🎤 *_!nightcore_*
+ │•🎤 *_!reverse_*
+ │•🎤 *_!robot_*
+ │•🎤 *_!slow*_
+ │•🎤 *_!smooth*_
+ │•🎤 *_!tupai_*
  ╰───────────
 
  ╭─❒ 「 *Herramientas 🧰* 」
@@ -361,7 +355,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ╭─❒ 「 *COMANDOS 🔞* 」
  │•🔞 *_Labiblia_* 
  ╰───────────`;
-   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '🤖🥊 - 𝙔𝙚𝙧𝙖𝙮 - 𝘽𝙤𝙩 - 𝙈𝘿 - 🤖🥊', "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
+   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '𝒀𝒆𝒓𝒂𝒚𝑩𝒐𝒕-𝑴𝑫🌴', "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
  // m.react('🧩');
   } catch {
     conn.reply(m.chat, '🧸 *Ocurrió Un Error*', m);
@@ -372,3 +366,5 @@ handler.tags = ['menu'];
 handler.command = /^(menu|menú|allmenu|help|menucompleto)$/i;
 handler.register = true
 export default handler;
+
+    
