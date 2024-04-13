@@ -1,5 +1,5 @@
 const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
-  const optionsFull = `╭✨️⸽⃕SᴀᴋᴜʀᴀBᴏᴛLɪᴛᴇ-MD🍁⃨፝⃕✰
+  const optionsFull = `╭𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿
 ┣☆ ඬ⃟⚓️ !enable welcome
 ┣☆ ඬ⃟⚓️ !disable welcome
 ┣☆ ඬ⃟🌐 !enable public
@@ -53,7 +53,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 ┣☆ ඬ⃟🌹 !enable modoia
 ┣☆ ඬ⃟🌹 !disable modoia
 ╰━━━━━━━✦✗✦━━━━━━━━
-𝘉𝘺: 𝘋𝘪𝘦𝘨𝘰𝘖𝘧𝘪𝘤𝘪𝘢𝘭✨`.trim();
+𝘉𝘺: 𝘚𝘦𝘣𝘢𝘴𝘵𝘪𝘢𝘯𝘖𝘧𝘪𝘤𝘪𝘢𝘭✨`.trim();
 
             const isEnable = /true|enable|(turn)?on|1/i.test(command);
   const chat = global.db.data.chats[m.chat];
@@ -361,7 +361,7 @@ break;
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-     conn.sendMessage(m.chat, {text: `ꨄ︎ *🧸 Tipo*: ${type}\nꨄ︎ *📍 Estado*: ${isEnable ? 'Activo ✅️' : 'Desactivo ❎️'}\nꨄ︎ *🧩 Para*: ${isAll ? '𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 ' : isUser ? '' : 'Este Chat'}`}, {quoted: m});
+     conn.sendMessage(m.chat, {text: `ꨄ︎ *👽 Tipo*: ${type}\nꨄ︎ *📍 Estado*: ${isEnable ? 'Activo ✅️' : 'Desactivo ❎️'}\nꨄ︎ *🧩 De*: ${isAll ? '𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 ' : isUser ? '' : 'Este Chat'}`}, {quoted: m});
 };
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
