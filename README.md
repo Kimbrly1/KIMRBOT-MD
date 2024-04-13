@@ -15,14 +15,6 @@
 
 [`🧩 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
  
-```bash
-termux-setup-storage
-```
-
-```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diegojadibot/SakuraBotLite-MD/master/sakura.sh | bash
-```
-
 - #### 📍Instalacion Por Termux Manual👨‍💻
 
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
