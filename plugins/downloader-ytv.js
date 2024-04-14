@@ -34,8 +34,8 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
       }
     }
   }
-  const { key } = await m.reply(`*_⏳Procesando Video...⏰️_*\n\n*Si el video no se envia prueba los siguientes comandos #playdoc ᴏ #play.2 ᴏ #ytmp4doc*`);
-  try {
+  const { key } = await m.reply(`*_⏳Procesando Video...⏰️_*\n\n*Si el video no se envia prueba los siguientes comandos:\n\n #playdoc \n\n #play.2 \n\n #ytmp4doc`);
+  
     const formats = await bestFormat(youtubeLink, 'video');
     const buff = await getBuffer(formats.url);
     const yt_1 = await youtubedl(youtubeLink).catch(async (_) => await youtubedlv2(youtubeLink));
@@ -70,7 +70,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     console.log(ee2)
     try {
       const mediaa = await ytMp4(youtubeLink);
-      await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: ` ❥ᰰຼ ⃟ᬽ៸𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿༒★»`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
+      await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: ` 𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
       await conn.sendMessage(m.chat, {text: '*🧩 Video Descargado Exitosamente*', edit: key}, {quoted: m});
       enviando = false
     } catch {
