@@ -5,7 +5,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   let q = m.quoted ? m.quoted : m;
   let mime = (q.msg || q).mimetype || q.mediaType || "";
   if (!mime) throw `*🍭  𝐄𝐧𝐯𝐢𝐞 𝐔𝐧𝐚 𝐈𝐦𝐚𝐠𝐞𝐧 𝐘 𝐋𝐮𝐞𝐠𝐨 𝐑𝐞𝐬𝐩𝐨𝐧𝐝𝐚 𝐂𝐨𝐧 𝐄𝐥 𝐂𝐨𝐦𝐚𝐧𝐝𝐨 !hd*`;
-  if (!/image\/(jpe?g|png)/.test(mime)) throw `*🚩 𝐄𝐥 𝐅𝐨𝐫𝐦𝐚𝐭𝐨 𝐃𝐞 𝐋𝐚 𝐌𝐮𝐬𝐢𝐜𝐚 (${mime}) 𝐍𝐨 𝐄𝐬 𝐂𝐨𝐦𝐩𝐚𝐭𝐢𝐛𝐥𝐞, 𝐄𝐧𝐯𝐢𝐞 𝐎 𝐑𝐞𝐬𝐩𝐨𝐧𝐝𝐚 𝐀 𝐔𝐧𝐚 𝐅𝐨𝐭𝐨*`;
+  if (!/image\/(jpe?g|png)/.test(mime)) throw `*🚩 𝐄𝐥 𝐅𝐨𝐫𝐦𝐚𝐭𝐨 𝐃𝐞𝐥 𝐀𝐫𝐜𝐡𝐢𝐯𝐨 ${mime}) 𝐍𝐨 𝐄𝐬 𝐂𝐨𝐦𝐩𝐚𝐭𝐢𝐛𝐥𝐞, 𝐄𝐧𝐯𝐢𝐞 𝐎 𝐑𝐞𝐬𝐩𝐨𝐧𝐝𝐚 𝐀 𝐔𝐧𝐚 𝐅𝐨𝐭𝐨*`;
   m.reply("⌛ 𝙴𝚜𝚙𝚎𝚛𝚎 𝚄𝚗 𝙼𝚘𝚖𝚎𝚗𝚝𝚘...");
   let img = await q.download?.();
   let pr = await remini(img, "enhance");
