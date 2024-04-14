@@ -9,7 +9,7 @@ handler.all = async function(m) {
   // const estiloaudio = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: {"audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "99569", "ptt": "true"}}}
   if (/^bot$/i.test(m.text) && !chat.isBanned) {
     conn.sendPresenceUpdate('recording', m.chat);
-    await m.reply(`*Hola Aqui Estoy, En Que Te Puedo Ayudar? 🍧*`);
+    await m.reply(`*𝐀𝐪𝐮𝐢 𝐄𝐬𝐭𝐨𝐲 𝐌𝐢 𝐄𝐬𝐭𝐢𝐧𝐚𝐝𝐨 👺*`);
     m.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
     // conn.sendFile(m.chat, vn, 'bot.mp3', null, m, true, { type: 'audioMessage', seconds: '4556', ptt: true, sendEphemeral: true, quoted: m })
   }
