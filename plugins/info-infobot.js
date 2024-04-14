@@ -63,7 +63,7 @@ const handler = async (m, { conn, usedPrefix }) => {
         title: "Tᴜ Mᴇᴊᴏʀ Bᴏᴛ!",
         body: wm,
         thumbnail: imagen6,
-        sourceUrl: "https://atom.bio/sakuralite",
+        sourceUrl: "https://atom.bio/sebas_official",
       },
     },
     caption: info,
