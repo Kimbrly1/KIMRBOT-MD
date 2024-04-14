@@ -39,7 +39,7 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd SebastianBotLite-MD
+> cd YerayBot-MD
 > npm start
 ```
 
