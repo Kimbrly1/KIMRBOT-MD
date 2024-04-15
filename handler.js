@@ -1193,7 +1193,7 @@ const messageText = `
 ${user.bannedReason ? `\n*Motivo:* 
 ${user.bannedReason}` : '*Motivo:* Sin Especificar'}
 _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Propietario Del Bot Y Apelar La Suspención._
-*Intenta Quitar El Baneo Aqui:* Wa.me/573012482694
+*Intenta Quitar El Baneo Aqui:* Wa.me/593992402778
 ╰━━━━━━━✦✗✦━━━━━━━━╯
                `.trim();
               m.reply(messageText);
