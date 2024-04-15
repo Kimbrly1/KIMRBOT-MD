@@ -16,7 +16,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
 `.trim();
   }
   await conn.groupSettingUpdate(m.chat, isClose);
-  {m.reply ('𝑮𝑹𝑼𝑷𝑶 𝑪𝑶𝑵𝑭𝑰𝑮𝑼𝑹𝑨𝑫𝑶 𝑬𝑿𝑰𝑻𝑶𝑺𝑨𝑴𝑬𝑵𝑻𝑬 😁');}
+  {m.reply ('𝑶𝑹𝑫𝑬𝑵 𝑹𝑬𝑪𝑰𝑩𝑰𝑫𝑨 𝑫𝑬𝑳 𝑮𝑹𝑼𝑷𝑶 ✅');}
 };
 handler.help = ['group open / close', 'grupo abrir / cerrar'];
 handler.tags = ['group'];
