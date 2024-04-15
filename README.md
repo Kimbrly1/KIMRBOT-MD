@@ -13,43 +13,6 @@
 <a href="https://chat.whatsapp.com/KPZpP0VnlA875UpXCDPc0E"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
-[`🧩 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
- 
-- #### 📍Instalacion Por Termux Manual👨‍💻
-
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-
-```bash
-termux-setup-storage
-```
-```bash
-apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
-```
-```bash
-git clone https://github.com/ale-rmz/YerayBot-MD && cd YerayBot-MD
-```
-```bash
-yarn install && npm install
-```
-```bash
-npm start
-```
-
-- #### 📍Activar En Caso De Detenerse En Termux🧸
-```bash
-ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd 
-> cd YerayBot-MD
-> npm start
-```
-
-- ### 📍Obtener Otro Codigo Qr👨‍💻 
-```bash
-> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd YerayBot-MD
-> rm -rf YerayBotSession
-> npm start
-```
 
 ***
 
