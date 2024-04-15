@@ -361,7 +361,7 @@ break;
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-     conn.sendMessage(m.chat, {text: `⤑ *👽 Tipo*: ${type}\n⤑ *📍 Estado*: ${isEnable ? 'Activo ✅️' : 'Desactivo ❎️'}\n⤑ *🧩 De*: ${isAll ? '𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 ' : isUser ? '' : 'Este Chat'}`}, {quoted: m});
+     conn.sendMessage(m.chat, {text: `⤑ *⚡ Tipo*: ${type}\n⤑ *⌛ Estado*: ${isEnable ? 'Activo ✅️' : 'Desactivo ❎️'}\n⤑ *💥 De*: ${isAll ? '𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 ' : isUser ? '' : 'Este Chat'}`}, {quoted: m});
 };
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
