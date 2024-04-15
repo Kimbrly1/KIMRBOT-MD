@@ -6,7 +6,7 @@ El codigo de este archivo esta totalmente hecho por:
 - Aiden_NotLogic (https://github.com/ferhacks)
 
 El codigo de este archivo fue creado para:
-- SakuraBotLite-MD (https://github.com/ale-rmz/YerayBot-MD)
+- YerayBot-MD (https://github.com/ale-rmz/YerayBot-MD)
 
 El codigo de este archivo fue parchado por:
 - ReyEndymion (https://github.com/ReyEndymion)
