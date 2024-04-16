@@ -17,7 +17,7 @@ let handler = async (m, { conn, text }) => {
   await console.log(res);
   res = res.map(
     (v) =>
-`🔍 𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊𝙎: ${gPlay.titulo}
+conn.sendMessage(m.chat,{image:{url: gPlay.imagen},caption:`🔍 𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊𝙎: ${gPlay.titulo}
 🧬 𝙄𝘿𝙀𝙉𝙏𝙄𝙁𝙄𝘾𝘼𝘿𝙊𝙍: ${gPlay.id}
 ⛓️ 𝙇𝙄𝙉𝙆: ${gPlay.link}
 🖼️ 𝙄𝙈𝘼𝙂𝙀𝙉: ${gPlay.imagen}
