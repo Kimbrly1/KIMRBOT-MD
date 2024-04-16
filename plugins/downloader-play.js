@@ -17,7 +17,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 
      *𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿*
 ⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
-* » ◇ « ✧ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 » ◇ « ✧:*
+  * 【  𝙴𝙹𝙴𝙼𝙿𝙻𝙾  】*
 *${usedPrefix + command} CG Monarco - Noche de adolescentes*`;
   try {
     const yt_play = await search(args.join(' '));
@@ -31,7 +31,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     const texto1 = `₊✧♡₊˚ 🌩・₊✧★🎸🎧°⋆♡₊˚ 🔮
 
               *𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿*
-            
+    
 > 🌩 𝙏𝙄𝙏𝙐𝙇𝙊:
 > • ${yt_play[0].title}
 > ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸━━━━━━━━━━━━━━━◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
