@@ -1,4 +1,4 @@
-//💖 𝙎𝙖𝙠𝙪𝙧𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 💖
+//YerayBot-MD 💥 
 
 import { createHash } from 'crypto'
 let handler = async function (m, { conn, text, usedPrefix }) {
