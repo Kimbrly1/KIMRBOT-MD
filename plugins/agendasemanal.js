@@ -10,13 +10,7 @@ let texto = `📕 ¡LA #AGENDASEMANAL ESTÁ AQUÍ! 📕
 💀 Deja marca en batalla con el conjunto Bestia Legendaria y celebra tus victorias con el emote Estallido de Color. 🙌
 
 📅 ¡Prepárate para la #NuevaActualización! 17 de abril
-#Mecadragón
-
-
-
-
-
-`
+#Mecadragón`
 
 const fkontak = {
         "key": {
