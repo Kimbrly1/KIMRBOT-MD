@@ -13,9 +13,12 @@ let limit_a2 = 400;
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
   if (!text) throw `⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
 *⚓⚠️ 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦 𝘓𝘢 𝘊𝘢𝘯𝘤𝘪𝘰𝘯 𝘍𝘢𝘭𝘵𝘢𝘯𝘵𝘦, 𝘗𝘰𝘳 𝘍𝘢𝘷𝘰𝘳 𝘐𝘯𝘨𝘳𝘦𝘴𝘦 𝘌𝘭 𝘊𝘰𝘮𝘢𝘯𝘥𝘰 𝘔𝘢𝘴 𝘌𝘭 𝘕𝘰𝘮𝘣𝘳𝘦 𝘋𝘦 𝘓𝘢 𝘊𝘢𝘯𝘤𝘪𝘰𝘯*
+
+
+     𝓨𝓮𝓻𝓪𝔂𝓑𝓸𝓽-𝓜𝓓
 ⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
 * » ◇ « ✧ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾 » ◇ « ✧:*
-*${usedPrefix + command} Sombra - Maiye Torrex*`;
+*${usedPrefix + command} CG Monarco - Noche de adolescentes*`;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
@@ -26,6 +29,9 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     }
     await conn.sendMessage(m.chat, { react: { text: '⏰️', key: m.key } })
     const texto1 = `₊✧♡₊˚ 🌩・₊✧★🎸🎧°⋆♡₊˚ 🔮
+
+              𝓨𝓮𝓻𝓪𝔂𝓑𝓸𝓽-𝓜𝓓
+            
 > 🌩 𝙏𝙄𝙏𝙐𝙇𝙊:
 > • ${yt_play[0].title}
 > ◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸━━━━━━━━━━━━━━━◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸
