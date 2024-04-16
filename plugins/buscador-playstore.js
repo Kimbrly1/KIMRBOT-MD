@@ -1,9 +1,9 @@
 import gplay from "google-play-scraper";
 
 let handler = async (m, { conn, text }) => {
-  if (!text) throw "📍 *Ingrese Un Nombre De La App*";
+  if (!text) throw "🌴 *𝑰𝑵𝑮𝑹𝑬𝑺𝑬 𝑬𝑳 𝑵𝑶𝑴𝑩𝑹𝑬 𝑫𝑬 𝑳𝑨 𝑨𝑷𝑷*";
   let res = await gplay.search({ term: text });
-  if (!res.length) throw `📍 *Ingrese Un Nombre De La App*`;
+  if (!res.length) throw `🌴 *𝑰𝑵𝑮𝑹𝑬𝑺𝑬 𝑬𝑳 𝑵𝑶𝑴𝑩𝑹𝑬 𝑫𝑬 𝑳𝑨 𝑨𝑷𝑷*`;
   let opt = {
     contextInfo: {
       externalAdReply: {
