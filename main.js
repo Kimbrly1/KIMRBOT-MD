@@ -328,7 +328,7 @@ if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('[ 🦋 ] Escanea el código QR.'));
  }}
    if (connection == 'open') {
-console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 💥 • ┈ ┈ ┈ ┈ ┈╮\n┊ 🔰 CONEXIÓN EXITOSA CON WHATSAPP 🔰\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈┈ ┈ ┈╯\n'))
+console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 💥 • ┈ ┈ ┈ ┈ ┈╮\n┊ 🔰 CONEXIÓN EXITOSA CON WHATSAPP 🔰\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈  ┈╯\n'))
 //conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy SakuraBot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
