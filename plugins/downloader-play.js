@@ -28,9 +28,10 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
       additionalText = 'video 🎥';
     }
     await conn.sendMessage(m.chat, { react: { text: '⏰️', key: m.key } })
-    const texto1 = `●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+    const texto1 = `┏----------------------------┓
 
               *𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿*
+              
   ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 > •➤ 🛡️ 𝙏𝙄𝙏𝙐𝙇𝙊:
 >  ${yt_play[0].title}
@@ -49,7 +50,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 > ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 > •➤ ⏱️ 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉:
 >  ${secondString(yt_play[0].duration.seconds)}
- ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+ ┗----------------------------┛
 > *_Enviando ${additionalText}, Aguarde Un Momento..._*`.trim();
         conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
