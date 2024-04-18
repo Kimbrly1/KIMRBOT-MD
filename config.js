@@ -92,7 +92,7 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nYerayBot`;
-global.gt = 'SakuraBot';
+global.gt = 'YerayBot';
 global.mysticbot = 'YerayBot';
 global.mysticbot = 'https://github.com/ale-rmz/YerayBot-MD';
 global.nomorown = '573012482694';
