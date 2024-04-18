@@ -30,7 +30,7 @@ global.contactos = [
 global.suittag = ['593992402778'];
 global.prems = ['593995004980'];
 
-global.lenguajeSK = es //idioma de sakurabot
+global.lenguajeSK = es //idioma de yeraybot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿';
