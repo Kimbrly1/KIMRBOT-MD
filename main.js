@@ -399,7 +399,7 @@ global.reloadHandler = async function(restatConn) {
   }
 
 conn.welcome = '╔═════ @subject ═════╗\n╟✎﹏ *BIENVENIDO(A)*\n╟✎﹏ @user\n╟✎﹏📄𝐼𝑁𝐹𝑂𝑅𝑀𝐴𝐶𝐼𝑂́𝑁: \n╚═══𝒀𝒆𝒓𝒂𝒚 𝑶𝒇𝒊𝒄𝒊𝒂𝒍👽\n\n@desc';
-    conn.bye = '╔══════════╗\n╟ @user\n╟ *-1 𝑩𝑨𝑺𝑼𝑹𝑨 𝑵𝑶 𝑳𝑬 𝑺𝑨𝑩𝑬 𝑨𝑳 𝑮𝑹𝑼𝑷𝑶*\n╚═══𝒀𝒆𝒓𝒂𝒚 𝑶𝒇𝒊𝒄𝒊𝒂𝒍👽';
+    conn.bye = '╔══════════╗\n╟ @user\n╟ *-1 𝑩𝑨𝑺𝑼𝑹𝑨*\n╟ *𝑵𝑶 𝑳𝑬 𝑺𝑨𝑩𝑬 𝑨𝑳 𝑮𝑹𝑼𝑷𝑶*\n╚═══𝒀𝒆𝒓𝒂𝒚 𝑶𝒇𝒊𝒄𝒊𝒂𝒍👽';
   conn.spromote = '@user\n𝗔𝗛𝗢𝗥𝗔 𝗘𝗦 𝗔𝗗𝗠𝗜𝗡 𝗗𝗘 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢.';
   conn.sdemote = '@user\n𝗗𝗘𝗝𝗔 𝗗𝗘 𝗦𝗘𝗥 𝗔𝗗𝗠𝗜𝗡 𝗘𝗡 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢.';
   conn.sDesc = '𝗟𝗔 𝗡𝗨𝗘𝗩𝗔 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡 𝗗𝗘𝗟 𝗚𝗥𝗨𝗣𝗢 𝗘𝗦 :\n\n@desc';
