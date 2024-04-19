@@ -1,5 +1,10 @@
 > 🤖Versión Del Bot: 1.0.7
 
+
+p align="center"> 
+<a href="https://github.com/ale-rmz/sebasmvp"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=YerayBot-MD++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%92%96" height="90px"></a> 
+</p>
+ 
 ### 𝗬𝗲𝗿𝗮𝘆 : 𝘽𝙤𝙩 - 𝙈𝘿🥷🏻🔥
 <p align="center">
 <img src="https://github.com/ale-rmz/YerayBot-MD/blob/master/Menu3.png" width="900"/>
