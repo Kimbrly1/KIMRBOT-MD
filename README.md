@@ -36,4 +36,4 @@ href="https://github.com/sebasmvp"><img src="https://github.com/sebasmvp.png" wi
 
 
 ## Colaboradores Del Bot ✨️  
-[![Sebas.mvp2](https://github.com/sebasmvp.png?size=100)](https://github.com/sebasmvp) 
+[![Sebas.mvp](https://github.com/sebasmvp.png?size=100)](https://github.com/sebasmvp)  [![Alee-rmz](https://github.com/ale-rmz.png?size=100)](https://github.com/ale-rmz)
