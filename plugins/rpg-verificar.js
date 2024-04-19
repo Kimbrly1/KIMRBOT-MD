@@ -6,8 +6,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
   let pp = await this.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/1861aab98389b13db8588.jpg')
   if (user.registered === true) throw `⚠𝙃𝙚𝙮, 𝘼𝙡𝙩𝙤!! 𝙔𝙖 𝙀𝙨𝙩𝙖𝙨 𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙙𝙤, 𝙌𝙪𝙞𝙚𝙧𝙚𝙨 𝙑𝙤𝙡𝙫𝙚𝙧𝙩𝙚 𝙖 𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙧?\n\n*⚡Para Volver A Registrarte Usa Este Comando Para Borrar Tu registro* \n\n*${usedPrefix}unreg* <Número de serie>\n\n _*Att: 👽Sebas Oficial👽*_ `
-  if (!Reg.test(text)) throw `*⚠️ Mal Uso Del Comando*\n\n*🥀 Uso Del Comando:* 
-*${usedPrefix + command} nombre.edad*\n\n*📍Ejemplo:*
+  if (!Reg.test(text)) throw `*⚠️ Mal Uso Del Comando*\n\n*🎁 Uso Del Comando:* 
+*${usedPrefix + command} nombre.edad*\n\n*🔍Ejemplo:*
  ${usedPrefix + command} *${name2}.18*`
   let [_, name, splitter, age] = text.match(Reg)
   if (!name) throw '*📝 El nombre no puede estar vacío*'
