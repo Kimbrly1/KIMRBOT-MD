@@ -5,12 +5,20 @@
 <img src="https://github.com/ale-rmz/YerayBot-MD/blob/master/Menu3.png" width="900"/>
 </p>
 
+### `●𝑴𝒊 𝑰𝒈●`
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00CB22&width=435&lines=Sígueme+En+Instagram;No+seas+malx%3A3;)
+<a href="https://www.instagram.com/sebas.mvp_official0?igsh=cGk3Zmd0c3Bta280" target="blank"><img src="https://img.shields.io/badge/INSTAGRAM-25D366?style=for-the-badge&logo=Instagram&logoColor=white" />
+</a>
+
+
 
 ### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba El Bot Aqui" width="42" height="42"> Prueba El Bot Aqui
 
 > Si Deseas Probar El Bot Antes De Instalarlo, Click Abajo.🟢
 
 <a href="https://chat.whatsapp.com/KPZpP0VnlA875UpXCDPc0E"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
 
 
 
