@@ -1525,7 +1525,7 @@ export async function callUpdate(callUpdate) {
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
         const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Creador 🧸;;;\nFN:Creador 🧸\nORG:Creador 🧸\nTITLE:\nitem1.TEL;waid=593992402778:+593 99 240 2778\nitem1.X-ABLabel:Creador 🧸Creador 🧸\nX-WA-BIZ-DESCRIPTION:ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:Creador 🧸\nEND:VCARD`;
-        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝘚𝘢𝘬𝘶𝘳𝘪𝘵𝘴𝘉𝘰𝘵 ✨', contacts: [{vcard}]}}, {quoted: callmsg});
+        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: 'Yeray𝘉𝘰𝘵 ✨', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
     }
@@ -1562,7 +1562,7 @@ global.dfail = (type, m, conn) => {
     private: '*¡𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢ó𝐧 𝐒𝐨𝐥𝐨 𝐒𝐞 𝐏𝐮𝐞𝐝𝐞 𝐔𝐭𝐢𝐥𝐢𝐳𝐚𝐫 𝐀𝐥 𝐂𝐡𝐚𝐭 𝐏𝐫𝐢𝐯𝐚𝐝𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭!*',
     admin: '*¡𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢ó𝐧 𝐒𝐨𝐥𝐨 𝐒𝐞 𝐏𝐮𝐞𝐝𝐞 𝐔𝐭𝐢𝐥𝐢𝐳𝐚𝐫 𝐏𝐨𝐫 𝐔𝐧 𝐀𝐝𝐦𝐢𝐧 𝐃𝐞𝐥 𝐆𝐫𝐮𝐩𝐨!*',
     botAdmin: '*¡𝙀𝙨 𝙉𝙚𝙘𝙚𝙨𝙖𝙧𝙞𝙤 𝙌𝙪𝙚 𝙀𝙡 𝘽𝙤𝙩 𝙎𝙚𝙖 𝘼𝙙𝙢𝙞𝙣 𝙋𝙖𝙧𝙖 𝙐𝙩𝙞𝙡𝙞𝙯𝙖𝙧 𝙀𝙨𝙩𝙚 𝘾𝙤𝙢𝙖𝙣𝙙𝙤!*',
-    unreg: '*𝑵𝒐 𝑬𝒔𝒕𝒂𝒔 𝑬𝒏 𝑴𝒊 𝑳𝒊𝒔𝒕𝒂 𝑫𝒆 𝑹𝒆𝒈𝒊𝒔𝒕𝒓𝒐*\n\n 𝑼𝒔𝒂 𝑬𝒍 𝑬𝒋𝒆𝒎𝒑𝒍𝒐 𝑸𝒖𝒆 𝑬𝒔𝒕𝒂 𝑨𝒒𝒖𝒊 𝑨𝒃𝒂𝒋𝒐👇🏼\n\n!!𝒗𝒆𝒓𝒊𝒇𝒊𝒄𝒂𝒓 𝑵𝒐𝒎𝒃𝒓𝒆.𝑬𝒅𝒂𝒅\n\n*𝑼𝒔𝒐 𝑪𝒐𝒓𝒓𝒆𝒄𝒕𝒐* : !𝒗𝒆𝒓𝒊𝒇𝒊𝒄𝒂𝒓 𝑺𝒆𝒃𝒂𝒔.18',
+    unreg: '*𝑵𝒐 𝑬𝒔𝒕𝒂𝒔 𝑬𝒏 𝑴𝒊 𝑳𝒊𝒔𝒕𝒂 𝑫𝒆 𝑹𝒆𝒈𝒊𝒔𝒕𝒓𝒐*\n\n 𝑼𝒔𝒂 𝑬𝒍 𝑬𝒋𝒆𝒎𝒑𝒍𝒐 𝑸𝒖𝒆 𝑬𝒔𝒕𝒂 𝑨𝒒𝒖𝒊 𝑨𝒃𝒂𝒋𝒐👇🏼\n\n!𝒗𝒆𝒓𝒊𝒇𝒊𝒄𝒂𝒓 𝑵𝒐𝒎𝒃𝒓𝒆.𝑬𝒅𝒂𝒅\n\n*𝑼𝒔𝒐 𝑪𝒐𝒓𝒓𝒆𝒄𝒕𝒐* : !𝒗𝒆𝒓𝒊𝒇𝒊𝒄𝒂𝒓 𝑺𝒆𝒃𝒂𝒔.18',
     restrict: '*¡𝐄𝐬𝐭𝐚 𝐅𝐮𝐧𝐜𝐢ó𝐧 𝐅𝐮é 𝐃𝐞𝐬𝐡𝐚𝐛𝐢𝐥𝐢𝐭𝐚𝐝𝐨 𝐏𝐨𝐫 𝐌𝐢 𝐃𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐚𝐝𝐨𝐫!*',
     }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
