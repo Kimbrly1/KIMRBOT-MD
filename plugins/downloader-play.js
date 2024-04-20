@@ -28,7 +28,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
       additionalText = 'video 🎥';
     }
     await conn.sendMessage(m.chat, { react: { text: '⏰️', key: m.key } })
-    const texto1 = `┏----------------------------┓
+    const texto1 = `▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 
               *𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿*
               
