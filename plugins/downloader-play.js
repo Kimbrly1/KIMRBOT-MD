@@ -34,22 +34,22 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
               
   ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 > •➤ 🛡️ 𝙏𝙄𝙏𝙐𝙇𝙊:
->  ${yt_play[0].title}
+> * ${yt_play[0].title}
 > ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 > •➤ 🎥 𝙋𝙐𝘽𝙇𝙄𝘾𝘼𝘿𝙊 𝙀𝙉: 
->  ${yt_play[0].ago}
+> * ${yt_play[0].ago}
 > ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 > •➤ 🔍 𝙀𝙉𝙇𝘼𝘾𝙀:
->  ${yt_play[0].url}
+> * ${yt_play[0].url}
 > ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 > •➤ 🥷🏼 𝘼𝙐𝙏𝙊𝙍:
->  ${yt_play[0].author.name}
+> * ${yt_play[0].author.name}
 > ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 > •➤ 💫 𝘾𝘼𝙉𝘼𝙇:
->  ${yt_play[0].author.url}
+> * ${yt_play[0].author.url}
 > ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 > •➤ ⏱️ 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉:
->  ${secondString(yt_play[0].duration.seconds)}
+> * ${secondString(yt_play[0].duration.seconds)}
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 > *_Enviando ${additionalText}, Aguarde Un Momento..._*`.trim();
         conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
