@@ -48,7 +48,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/ale-rmz/YerayBot-MD` },
+    document: { url: `https://www.instagram.com/yeray_bot_md?igsh=MTZwNGt5YXBuaWFydQ==` },
     mimetype: `application/${document}`,
     fileName: `𝙔𝙚𝙧𝙖𝙮 𝘽𝙤𝙩🌸`,
     fileLength: 99999999999999,
@@ -57,7 +57,7 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/ale-rmz/YerayBot-MD",
+        mediaUrl: "https://www.instagram.com/yeray_bot_md?igsh=MTZwNGt5YXBuaWFydQ==",
         mediaType: 2,
         previewType: "pdf",
         title: "Tᴜ Mᴇᴊᴏʀ Bᴏᴛ!",
