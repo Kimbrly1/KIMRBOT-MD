@@ -50,7 +50,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 > ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 > •➤ ⏱️ 𝘿𝙐𝙍𝘼𝘾𝙄𝙊𝙉:
 >  ${secondString(yt_play[0].duration.seconds)}
- ┗----------------------------┛
+▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 > *_Enviando ${additionalText}, Aguarde Un Momento..._*`.trim();
         conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
