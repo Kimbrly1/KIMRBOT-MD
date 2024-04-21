@@ -18,7 +18,7 @@ const rl = createInterface(process.stdin, process.stdout)
 say('Yeray\nBot\nMD', {
 font: 'block',
 align: 'center',
-colors: ['blue', 'green']
+colors: ['cyan', 'blue']
 })
 say(`Bot En Desarrollo, By: Sebas Oficial`, {
 font: 'console',
