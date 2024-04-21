@@ -1,40 +1,39 @@
-var handler = async (m, { conn, participants, groupMetadata, args, text }) => {
-
-const pp = './src/6vs6clk.png'
-const groupAdmins = participants.filter(p => p.admin)
-const listaAdmins = groupAdmins.map((v, i) => ``).join('\n')
-const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net'
-if (!text) return m.reply(`🕓 𝑰𝑵𝑮𝑹𝑬𝑺𝑨 𝑼𝑵 𝑯𝑶𝑹𝑨𝑹𝑰𝑶.\n𝑬𝒋𝒆𝒎𝒑𝒍𝒐:\n.6vs6 7pm🇪🇨/6pm🇲🇽`)
-if (text.length < 0) return m.reply(`⚙️ 𝑯𝑶𝑹𝑨𝑹𝑰𝑶 𝑴𝑨𝑳 𝑬𝑺𝑪𝑹𝑰𝑻𝑶 𝑰𝑵𝑻𝑬𝑵𝑻𝑨 𝑫𝑬 𝑵𝑼𝑬𝑽𝑶.`)
-let mensaje = args.join` `
-let yo = `🕓 𝗛𝗢𝗥𝗔: *${text}*`
-let texto = `╭──────⚔──────╮
-   6𝐕𝐒6 𝑪𝑶𝑴𝑷𝑬𝑻𝑰𝑻𝑰𝑽𝑶
+import fg from 'api-dylux' 
+import fetch from 'node-fetch'
+import { savefrom, facebookdl, facebookdlv2 } from '@bochilteam/scraper'
+import fbDownloader from 'fb-downloader-scrapper'
+import { facebook } from "@xct007/frieren-scraper"
+import axios from 'axios'
+let handler = async (m, { conn, args, command, usedPrefix }) => {
+if (!args[0]) throw `
+╭──────⚔──────╮
+ㅤㅤㅤ  𝑽𝑬𝑹𝑺𝑼𝑺 
 ╰──────⚔──────╯
-
-${yo}
-📑 𝑹𝑬𝑮𝑳𝑨𝑺: 𝐶𝐿𝐾
-
-╭─────────────╮
-│ 𝑬𝑺𝑪𝑼𝑨𝑫𝑹𝑨 
-│🤴🏻 ➤ 
-│👤 ➤  
-│👤 ➤ 
-│👤 ➤ 
-│👤 ➤ 
-│👤 ➤ 
+╭──────────────╮
+│ㅤ *𝑴𝑶𝑫𝑶*  : COMPE
+│ㅤ⏱ 𝑯𝑶𝑹𝑨𝑹𝑰𝑶 
+│ㅤ🇪🇨 𝑬𝑪:
+│➥ 𝑬𝑺𝑪𝑼𝑨𝑫𝑹𝑨: 
+│➥ 𝑱𝑼𝑮𝑨𝑫𝑶𝑹𝑬𝑺:
+│
+│     ☞𝑬𝑺𝑪𝑼𝑨𝑫𝑹𝑨: 
+│
+│👑 ➤ 
+│🥷🏻 ➤ 
+│🥷🏻 ➤ 
+│🥷🏻 ➤
+│🥷🏻 ➤ 
+│🥷🏻 ➤ 
+│
+│ㅤ☞𝑺𝑼𝑷𝑳𝑬𝑵𝑻𝑬:
+│🥷🏻 ➤ 
+│🥷🏻 ➤ 
 ╰─────────────╯
-╭─────────────╮
-│ 𝑺𝑼𝑷𝑳𝑬𝑵𝑻𝑬𝑺 
-│👤 ➤  
-│👤 ➤ 
-╰─────────────╯`.trim()
-conn.sendFile(m.chat, pp, 'error.jpg', texto, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
-
+                
+` 
 }
-handler.help = ['admins']
-handler.tags = ['grupo']
-handler.command = /^(6x6|6vs6)$/i
+handler.command = /^(vs6|6vs6)$/i
+handler.register = true
 handler.group = true
-
+handler.admin = true
 export default handler
