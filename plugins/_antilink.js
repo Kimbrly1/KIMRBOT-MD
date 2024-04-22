@@ -18,12 +18,12 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
       if (m.text.includes(linkThisGroup)) return !0;
     }
     await this.sendMessage(m.chat, {text: `*¡Enlace detectado!, Mandaste un enlace prohibido por lo cual seras eliminado*`, mentions: [m.sender]}, {quoted: m});
-    if (!isBotAdmin) return m.reply('🤖🥊 *No soy admin, no puedo eliminar a un inservible 🫤*');
+    if (!isBotAdmin) return m.reply('🥷🏼 *𝑵𝑶 𝑺𝑶𝒀 𝑨𝑫𝑴𝑰𝑵, 𝑵𝑶 𝑷𝑼𝑬𝑫𝑶 𝑽𝑶𝑻𝑨𝑹 𝑨 𝑼𝑵𝑨 𝑩𝑨𝑺𝑼𝑹𝑨 🫤*');
     if (isBotAdmin && bot.restrict) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       if (responseb[0].status === '404') return;
-    } else if (!bot.restrict) return m.reply('*¡Mi sistema me a detectado que está desactivado 😥💔!*');
+    } else if (!bot.restrict) return m.reply('*¡𝑬𝑳 𝑪𝑶𝑴𝑨𝑵𝑫𝑶 𝑬𝑺𝑻𝑨 𝑫𝑬𝑺𝑨𝑪𝑻𝑰𝑽𝑨𝑫𝑶 𝑵𝑰 𝑷𝑼𝑬𝑫𝑶 𝑬𝑳𝑰𝑴𝑰𝑵𝑨𝑹𝑻𝑬📌!*');
   }
   return !0;
 }
