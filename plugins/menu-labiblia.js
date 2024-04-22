@@ -23,7 +23,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*🦋 𝐿𝑜𝑠 �
 
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `*╭━━━━•『  MENU +🔞 』•━━━━╮*
-*│
+│
 │ 🔞 _.pack_
 │ 🔞 _.pack2_
 │ 🔞 _.pack3_
