@@ -15,9 +15,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     await conn.reply(m.chat, '*𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...*', fkon, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '💥 ¡𝗛𝗼𝗹𝗮!', body: '𝒀𝒆𝒓𝒂𝒚𝑩𝒐𝒕-𝑴𝑫🌴', sourceUrl: global.yt, thumbnail: await (await fetch(pp)).buffer() }}})
 //m.react('📍');
     await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
-  let txt =`╭*۰꒷⏝꒷۰꒷.✦˖ ࣪ ִֶָ  ★ ˖ ࣪ ִֶָ ۰✦.꒷۰꒷⏝*
+  let txt =`*★ 𝒀𝒆𝒓𝒂𝒚𝑩𝒐𝒕-𝑴𝑫 ★*
 
- *★ 𝒀𝒆𝒓𝒂𝒚𝑩𝒐𝒕-𝑴𝑫 ★*
+
  ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
  │╭─────────────────
  ││👤 *Nombre:* ${taguser}
