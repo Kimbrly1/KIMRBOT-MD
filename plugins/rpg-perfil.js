@@ -13,16 +13,16 @@ const handler = async (m, {conn, usedPrefix, participants, isPrems}) => {
     const username = conn.getName(who);
     const prem = global.prems.includes(who.split `@` [0]);
     const sn = createHash('md5').update(who).digest('hex');
-    const str = `. . . *🌸 P E R F I L 🌹* . . .
-🌹 • *Nombre:* ${username}
+    const str = `📌𝑷𝑬𝑹𝑭𝑰𝑳 
+🥷🏼 • *Nombre:* ${username}
 
 🌼 • *Tag:* @${who.replace(/@.+/, '')}
 
-📞 • *Numero:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-🔗 • *Link:* Wa.me/${who.split`@`[0]}${registered ? '\n🧃 • *Edad:* ' + age + ' años' : ''}
-💎 • *Limite: ${limit} Usos*
+📱 • *Numero:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+🔗 • *Link:* Wa.me/${who.split`@`[0]}${registered ? '\n• *Edad:* ' + age + ' años' : ''}
+📍 • *Limite: ${limit} Usos*
 📇 • *Registrado:* ${registered ? '✅': '❎'}
-🔮 • *Premium:* ${premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❎') || ''}`;
+💣 • *Premium:* ${premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❎') || ''}`;
     conn.sendMessage(m.chat, {image: {url: pp}, caption: str}, {quoted: m});
   }
 };
