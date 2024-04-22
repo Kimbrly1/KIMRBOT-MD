@@ -11,6 +11,10 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
   const user = `@${m.sender.split`@`[0]}`;
   const isGroupLink = linkRegex.exec(m.text);
   const grupo = `https://chat.whatsapp.com`;
+  const yt = `https://youtu.be`;
+  const ig = `https://instagram.com`;
+  const fb = `https://facebook.com`;
+  const tiktok = `https://tiktok.com`;
   if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply('☠️ *⚠️Hey Alto⚠️!! el anti link esta activo pero eres admin, ¡Estás salvado por el Dios eterno 🌅!*');
   if (chat.antiLink && isGroupLink && !isAdmin) {
     if (isBotAdmin) {
