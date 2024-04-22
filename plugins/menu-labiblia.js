@@ -23,30 +23,30 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*🦋 𝐿𝑜𝑠 �
 
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `*╭━━━━•『  MENU +🔞 』•━━━━╮*
-*│╭─────━───────━────*
-││ 🔞 _.pack_
-││ 🔞 _.pack2_
-││ 🔞 _.pack3_
-││ 🔞 _.videoxxx_
-││ 🔞 _.videolesbixxx_
-││ 🔞 _.tetas_
-││ 🔞 _.booty_
-││ 🔞 _.ecchi_
-││ 🔞 _.furro_
-││ 🔞 _.imagenlesbians_
-││ 🔞 _.panties_
-││ 🔞 _.pene_
-││ 🔞 _.porno_
-││ 🔞 _.randomxxx_
-││ 🔞 _.pechos_
-││ 🔞 _.yaoi_
-││ 🔞 _.yaoi2_
-││ 🔞 _.yuri_
-││ 🔞 _.yuri2_
-││ 🔞 _.trapito_
-││ 🔞 _.hentai_
-││ 🔞 _.hentaipdf *<texto>*_
-││ 🔞 _.hentaisearch *<texto>*_
+*│
+│ 🔞 _.pack_
+│ 🔞 _.pack2_
+│ 🔞 _.pack3_
+│ 🔞 _.videoxxx_
+│ 🔞 _.videolesbixxx_
+│ 🔞 _.tetas_
+│ 🔞 _.booty_
+│ 🔞 _.ecchi_
+│ 🔞 _.furro_
+│ 🔞 _.imagenlesbians_
+│ 🔞 _.panties_
+│ 🔞 _.pene_
+│ 🔞 _.porno_
+│ 🔞 _.randomxxx_
+│ 🔞 _.pechos_
+│ 🔞 _.yaoi_
+│ 🔞 _.yaoi2_
+│ 🔞 _.yuri_
+│ 🔞 _.yuri2_
+│ 🔞 _.trapito_
+│ 🔞 _.hentai_
+│ 🔞 _.hentaipdf *<texto>*_
+│ 🔞 _.hentaisearch *<texto>*_
 *╰───────────────────╯*`.trim();
     if (m.isGroup) {
       await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
