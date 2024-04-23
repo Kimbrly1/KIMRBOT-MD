@@ -1,5 +1,5 @@
 //
-// By @NeKosmic || https://github.com/NeKosmic/
+// By @Sebas.mvp_oficial0 || https://github.com/sebasmpv/
 //
 
 import * as fs from 'fs';
