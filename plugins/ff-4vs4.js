@@ -6,9 +6,9 @@ import { facebook } from "@xct007/frieren-scraper"
 import axios from 'axios'
 let handler = async (m, { conn, args, command, usedPrefix }) => {
 if (!args[0]) throw `
-╭──────⚔──────╮
-ㅤㅤㅤ  𝑽𝑬𝑹𝑺𝑼𝑺 
-╰──────⚔──────╯
+╭────────────╮
+⚔️ㅤㅤ 𝑽𝑬𝑹𝑺𝑼𝑺   ⚔️
+╰────────────╯
 ╭──────────────╮
 │ㅤ *𝑴𝑶𝑫𝑶*  : COMPE
 │ㅤ⏱ 𝑯𝑶𝑹𝑨𝑹𝑰𝑶 
