@@ -19,7 +19,7 @@ export async function before(m, {isAdmin, isBotAdmin, isOwner}) {
 
   if (user.warn >= 5) {
     user.warn = 0;
-    await m.reply(`*🥀 𝑯𝑬𝒀 𝑷𝑬𝑹𝑹@ @${m.sender.split`@`[0]}, 𝑺𝑼𝑷𝑬𝑹𝑨𝑺𝑻𝑬𝑺 𝑳𝑨𝑺 5 𝑨𝑫𝑽𝑬𝑹𝑻𝑬𝑵𝑪𝑰𝑨𝑺 𝑨𝑯𝑶𝑹𝑨 𝑻𝑬 𝑽𝑨𝑺 𝑪𝑶𝑴𝑶 𝑼𝑵/𝑨 𝑷𝑬𝑹𝑹@ 𝑸𝑼𝑬 𝑬𝑹𝑬𝑺🤑⚡`, false, {mentions: [m.sender]});
+    await m.reply(`*📌 𝑯𝑬𝒀 𝑷𝑬𝑹𝑹@ @${m.sender.split`@`[0]}, 𝑺𝑼𝑷𝑬𝑹𝑨𝑺𝑻𝑬𝑺 𝑳𝑨𝑺 5 𝑨𝑫𝑽𝑬𝑹𝑻𝑬𝑵𝑪𝑰𝑨𝑺 𝑨𝑯𝑶𝑹𝑨 𝑻𝑬 𝑽𝑨𝑺 𝑪𝑶𝑴𝑶 𝑼𝑵/𝑨 𝑷𝑬𝑹𝑹@ 𝑸𝑼𝑬 𝑬𝑹𝑬𝑺🤑⚡`, false, {mentions: [m.sender]});
     user.banned = true;
     await mconn.conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
     // await this.updateBlockStatus(m.sender, 'block')
