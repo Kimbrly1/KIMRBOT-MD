@@ -1,1 +1,1 @@
-yarn && npm star
+yarn && npm start
