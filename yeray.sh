@@ -2,7 +2,7 @@
 
 #!/data/data/com.termux/files/usr/bin/bash 
 # Interpretación determinada para la ejecución     
-COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/ale-rmz/YerayBot-MD\ncd YerayBot-MD\nyarn install\nnpm install\nnpm start"
+COMANDOS = "pkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/sebasmpv/YerayBot-MD\ncd YerayBot-MD\nyarn install\nnpm install\nnpm start"
 
 echo -e "\e[35m
 
@@ -134,7 +134,7 @@ echo -e "\e[35m
 ╚═╝░░╚═╝░░╚═╝░░  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝\n\e[0m"
 
 echo -e "\033[1;35m"
-git clone https://github.com/ale-rmz/YerayBot-MD.git
+git clone https://github.com/sebasmpv/YerayBot-MD.git
 echo -e "\033[01;32m\033[01mLa clonación se ha descargado e instalado correctamente.\nThe clone has been downloaded and installed successfully.\n\033[0m"
 
 echo -e "\033[01;32m\033[01mCambiando al directorio del repositorio!!\nChanging to the repository directory!!\n\033[0m" 
@@ -169,23 +169,17 @@ fi
 clear
 echo -e "\e[36m
 ┏╍┅┅┅╍⪻ 𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 ⪼┅┅┅┅┅┓
-┋❥ 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨: Sebas.mvp
-┋❥ 𝐘𝐨𝐮𝐭𝐮𝐛𝐞: https://www.youtube.com/@sebas.mvp_official 
-┋❥ 𝐆𝐢𝐭𝐇𝐮𝐛: https://github.com/ale-rmz/YerayBot-MD
-┋❥ 𝐍𝐮𝐦𝐞𝐫𝐨: +593 99 240 2778
+┋☞ 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨: Sebas.mvp
+┋☞ 𝐆𝐢𝐭𝐇𝐮𝐛: https://github.com/sebasmpv/YerayBot-MD
+┋☞ 𝐍𝐮𝐦𝐞𝐫𝐨: +593 99 240 2778
 ┋┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
-┋❥ 👋 𝐇𝐨𝐥𝐚 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐠𝐫𝐚𝐜𝐢𝐚𝐬 𝐩𝐨𝐫 𝐩𝐫𝐞𝐟𝐞𝐫𝐢𝐫𝐧𝐨𝐬.
-┋❥ 🟢 𝐀𝐜𝐭𝐢𝐯𝐚 𝐭𝐮 𝐛𝐨𝐭 24/7 𝐜𝐨𝐧 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐦𝐩3 🚀.
-┋❥ 𝐄𝐥 𝐛𝐨𝐭 𝐞𝐬 𝐬𝐢𝐦𝐩𝐥𝐞 𝐩𝐞𝐫𝐨 𝐝𝐢𝐯𝐞𝐫𝐭𝐢𝐝𝐨 𝐝𝐢𝐟𝐫𝐮𝐭𝐚𝐥𝐨.
-┋❥ 𝐍𝐨 𝐭𝐞 𝐨𝐥𝐯𝐢𝐝𝐞𝐬 𝐝𝐞𝐣𝐚𝐫 𝐮𝐧𝐚 𝐞𝐬𝐭𝐫𝐞𝐥𝐥𝐚 🌟 𝐚𝐥 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐢𝐨 𝐨𝐟𝐢𝐜𝐢𝐚𝐥.
-┋❥ 𝐋𝐢𝐧𝐝𝐨 𝐝𝐢𝐚 𝐩𝐚𝐫𝐚 𝐭𝐢.
+┋☞ 👋 𝐇𝐨𝐥𝐚 𝐮𝐬𝐮𝐚𝐫𝐢𝐨 𝐠𝐫𝐚𝐜𝐢𝐚𝐬 𝐩𝐨𝐫 𝐩𝐫𝐞𝐟𝐞𝐫𝐢𝐫𝐧𝐨𝐬.
+┋☞ 𝐄𝐥 𝐛𝐨𝐭 𝐞𝐬 𝐬𝐢𝐦𝐩𝐥𝐞 𝐩𝐞𝐫𝐨 𝐝𝐢𝐯𝐞𝐫𝐭𝐢𝐝𝐨 𝐝𝐢𝐟𝐫𝐮𝐭𝐚𝐥𝐨.
+┋☞ 𝐍𝐨 𝐭𝐞 𝐨𝐥𝐯𝐢𝐝𝐞𝐬 𝐝𝐞𝐣𝐚𝐫 𝐮𝐧𝐚 𝐞𝐬𝐭𝐫𝐞𝐥𝐥𝐚 🌟 𝐚𝐥 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐢𝐨 𝐨𝐟𝐢𝐜𝐢𝐚𝐥.
+┋☞ 𝐋𝐢𝐧𝐝𝐨 𝐝𝐢𝐚 𝐩𝐚𝐫𝐚 𝐭𝐢.
 ┋┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
-┋❥ 🟢 𝐒𝐢 𝐞𝐥 𝐛𝐨𝐭 𝐩𝐞𝐫𝐦𝐚𝐧𝐞𝐜𝐞 𝐬𝐢𝐞𝐦𝐩𝐫𝐞 𝐚𝐜𝐭𝐢𝐯𝐨
+┋☞ 𝐒𝐢 𝐞𝐥 𝐛𝐨𝐭 𝐩𝐞𝐫𝐦𝐚𝐧𝐞𝐜𝐞 𝐬𝐢𝐞𝐦𝐩𝐫𝐞 𝐚𝐜𝐭𝐢𝐯𝐨
 ┋𝐩𝐨𝐝𝐫𝐚𝐬 𝐬𝐞𝐫 𝐚𝐝𝐦𝐢𝐧𝐬 𝐞𝐧 𝐥𝐨𝐬 𝐠𝐫𝐮𝐩𝐨𝐬 𝐨𝐟𝐢𝐜𝐢𝐚𝐥𝐞𝐬.
-┋❥ 𝐓𝐞 𝐞𝐧𝐜𝐮𝐞𝐧𝐭𝐚 𝐪𝐮𝐞 𝐞𝐥 𝐛𝐨𝐭 𝐩𝐮𝐞𝐝𝐞 𝐦𝐚𝐧𝐝𝐚𝐫𝐭𝐞
-┋𝐚𝐥 𝐬𝐨𝐩𝐨𝐫𝐭𝐞 𝐲𝐚 𝐪𝐮𝐞 𝐩𝐮𝐞𝐝𝐞 𝐬𝐞𝐫 𝐬𝐩𝐚𝐦.
-┋❥ 𝐄𝐥 𝐛𝐨𝐭 𝐬𝐞 𝐮𝐧𝐞 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐞 𝐚𝐥 𝐠𝐫𝐮𝐩𝐨 𝐨𝐟𝐜.
-┋❥ 𝐆𝐫𝐚𝐜𝐢𝐚𝐬 𝐩𝐨𝐫 𝐩𝐫𝐞𝐟𝐞𝐫𝐢𝐫𝐧𝐨𝐬.
 ┗┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┛
 
 　　｡ﾟﾟ･｡･ﾟﾟ｡
