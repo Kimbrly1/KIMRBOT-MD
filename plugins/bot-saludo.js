@@ -1,4 +1,4 @@
-//comando de https://github.com/ale-rmz/YerayBot-MD
+//comando de https://github.com/sebasmpv/YerayBot-MD
 
 import speed from 'performance-now'
 import { spawn, exec, execSync } from 'child_process'
