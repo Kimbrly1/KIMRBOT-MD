@@ -34,9 +34,6 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 ┃ ┃✣➸ Sebas.mvp:
 ┃ https://github.com/sebasmvp
 ┃
-┃✣➸ Alee.mvp:
-┃ https://github.com/ale-rmz
-┃
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
 ╭🧸⸽⃕𝗡𝘂𝗺𝗲𝗿𝗼𝘀 - 𝗖𝗿𝗲𝗮𝗱𝗼𝗿𝗲𝘀📍✰ 
