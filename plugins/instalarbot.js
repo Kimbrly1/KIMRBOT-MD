@@ -21,51 +21,17 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
 
- await conn.sendMessage(m.chat, { react: { text: '🌳', key: m.key } })
+ await conn.sendMessage(m.chat, { react: { text: '🤖', key: m.key } })
 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `🤖 *Instalación Automatica* (Termux)
-   
-➪ termux-setup-storage
+ const str = `🤖
 
-➪ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/ale-rmz/YerayBot-MD/master/yeray.sh | bash
+𝑵𝒐 𝑬𝒔𝒕𝒐𝒚 𝑷𝒆𝒓𝒎𝒊𝒕𝒊𝒅𝒐 𝑨 𝑫𝒂𝒓 𝑴𝒊 𝑺𝒊𝒔𝒕𝒆𝒎𝒂☺️
 
-🤖 *Instalación Manual* (Termux) 📍
 
-➪ cd && termux-setup-storage
 
-➪ apt-get update -y && apt-get upgrade -y
-
-➪ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
-
-➪ git clone  https://github.com/ale-rmz/YerayBot-MD.git && cd YerayBot-MD
-
-➪ yarn install
-
-➪ npm install
-
-➪ npm update
-
-➪ npm start
-
-🟢 *Activar El Bot* 🟢
-
-➪ cd
-
-➪ cd YerayBot-MD
-
-➪ npm start
-
-🤖 *Obtener Otro Codigo Qr* 📍
-
-➪ cd YerayBot-MD
-
-➪ rm -rf YerayBotSession
-
-➪ npm start
-
-🟢 (Comandos 1 Por 1) 📍`.trim();     if (m.isGroup) { 
+`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
@@ -75,7 +41,7 @@ const document = doc[Math.floor(Math.random() * doc.length)];
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '📍 *Ocurrió Un Error*', m);
+    conn.reply(m.chat, '📌 *Ocurrió Un Error*', m);
   }
 };
 handler.command = /^(instalarbot|descargarbot|activarbot)$/i;
