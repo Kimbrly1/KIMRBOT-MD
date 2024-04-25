@@ -1,5 +1,5 @@
-/*              Codigo Creado Por Bruno Sobrino
-      (https://github.com/ale-rmz/YerayBot-MD)
+/*              Codigo Creado Por Sebas.mvp
+      (https://github.com/sebasmpv/YerayBot-MD)
 */
 
 const handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, command, isBotAdmin, isSuperAdmin}) => {
@@ -33,7 +33,7 @@ const handler = async (m, {conn, args, groupMetadata, participants, usedPrefix, 
       break;
   }
 };
-handler.command = /^(listanum|kicknum|listnum)$/i;
+handler.command = /^(listanum|kick|kicknum|listnum)$/i;
 handler.group = handler.botAdmin = handler.admin = true;
 handler.fail = null;
 export default handler;
