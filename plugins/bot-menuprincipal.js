@@ -38,24 +38,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  │•📄 *_!contacto_*
  │•📄 *_!creador_*
  │•📄 *_!contactos_*
- │•📄 *_!tqto>_*
- │•📄 *_!creditos_*
- │•📄 *_!credits_*
- │•📄 *_!thanks_*
- │•📄 *_!thanksto_*
  │•📄 *_!cuentasoficiales_*
  │•📄 *_!cuentasofc_* 
  │•📄 *_!cuentas_*
  │•📄 *_!grupos_*
- │•📄 *_!dash_*
- │•📄 *_!dashboard_*
- │•📄 *_!views_*
  │•📄 *_!database_*
  │•📄 *_!usuarios>_*
  │•📄 *_!user_*
  │•📄 *_!donar_*
  │•📄 *_!donate_*
- │•📄 *_!donasi_*
  │•📄 *_!groups_*
  │•📄 *_!grouplist_*
  │•📄 *_!infobot_*
