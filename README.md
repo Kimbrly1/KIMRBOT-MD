@@ -26,7 +26,7 @@
 ### 𝑴𝒊 𝑰𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎🌴
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&width=435&lines=Sígueme+En+Instagram;No+seas+malx%3A3;)
-<a href="https://www.instagram.com/sebas.mvp_official0" target="blank"><img src="https://img.shields.io/badge/INSTAGRAM-FF0000?style=for-the-badge&logo=Instagram&logoColor=white" />
+<a href="https://www.instagram.com/sebas.mvp_official0" target="blank"><img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=Instagram&logoColor=white" />
 </a>
 
 
