@@ -25,10 +25,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 
 const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `📌 𝐇𝐨𝐥𝐚 𝐇𝐮𝐦𝐚𝐧𝐨!!𝐀𝐠𝐫𝐚𝐝𝐞𝐳𝐜𝐨 𝐐𝐮𝐞 𝐌𝐞 𝐀𝐩𝐨𝐲𝐞𝐬 𝐃𝐨𝐧𝐚𝐧𝐝𝐨☺️ 𝐘 𝐏𝐨𝐝𝐞𝐫𝐥𝐨 𝐂𝐨𝐧𝐩𝐚𝐫𝐭𝐢𝐫𝐥𝐨𝐬 𝐂𝐨𝐧 𝐔𝐬𝐭𝐞𝐝𝐞𝐬 𝐃𝐞 𝐌𝐢 𝐒𝐢𝐬𝐭𝐞𝐦𝐚📌 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝐏𝐚𝐲𝐩𝐚𝐥 - 𝐘𝐞𝐫𝐚𝐲 - 𝐁𝐨𝐭
-*https://paypal.me/botSK*
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`.trim();     if (m.isGroup) { 
+ const str = `📌 No Hay Pagina Para Que Me Dones 😥`.trim();     if (m.isGroup) { 
  // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
