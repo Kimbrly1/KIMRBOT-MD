@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/ale-rmz/YerayBot-MD",
+  "homepage": "https://github.com/sebasmpv/YerayBot-MD",
   "author": {
     "name": "sebasmvp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ale-rmz/YerayBot-MD.git"
+    "url": "git+https://github.com/sebasmpv/YerayBot-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/ale-rmz/YerayBot-MD/issues"
+    "url": "https://github.com/sebasmpv/YerayBot-MD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
