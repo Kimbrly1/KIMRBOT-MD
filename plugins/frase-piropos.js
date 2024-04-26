@@ -1,7 +1,7 @@
 /* By https://github.com/DIEGO-OFC/DORRAT-BOT-MD */
 
 const handler = async (m, {conn, text}) => {
-  m.reply(`*➢ *"${pickRandom(global.piropo)}"*\n*𝒀𝒆𝒓𝒂𝒚𝑩𝒐𝒕-𝑴𝑫*`);
+  m.reply(`*➢ "${pickRandom(global.piropo)}"*\n\n*𝒀𝒆𝒓𝒂𝒚𝑩𝒐𝒕-𝑴𝑫*`);
 };
 handler.tags = ['frases'];
 handler.command = ['piropo'];
