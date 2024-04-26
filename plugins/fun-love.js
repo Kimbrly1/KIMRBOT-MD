@@ -3,7 +3,7 @@ let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.m
 let name = conn.getName(who)
 const pp = './storage/logos/Menu2.jpg'
 
-let love = `🚩 𝗨𝗡 𝗣𝗢𝗥𝗖𝗘𝗡𝗧𝗔𝗝𝗘 𝗗𝗘 𝗔𝗠𝗢𝗥
+let love = ` 😍 𝗨𝗡 𝗣𝗢𝗥𝗖𝗘𝗡𝗧𝗔𝗝𝗘 𝗗𝗘 𝗔𝗠𝗢𝗥
 
 ╭◈ ━━━━━━━ ⸙ ━━━━━━━ ◈╮
 ┋➸ 💖𝖤𝗅 𝖠𝗆𝗈𝗋 𝖣𝖾: 
@@ -16,7 +16,7 @@ let love = `🚩 𝗨𝗡 𝗣𝗢𝗥𝗖𝗘𝗡𝗧𝗔𝗝𝗘 𝗗𝗘 𝗔
 
 conn.sendMessage(m.chat, {text: love, mentions: [m.sender]}, {quoted: m})
 
-//conn.reply(m.chat, `*🚩 Ocurrió un fallo*`)
+//conn.reply(m.chat, `*🔰 Ocurrió un fallo*`)
 
 }
 handler.help = ['love']
