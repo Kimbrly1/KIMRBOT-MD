@@ -22,9 +22,9 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 
 conn.reply(m.chat, `${saludo}
 
-🗂️ *Tengo ${rtotalreg} Usuarios Registrados*
+🗂️ *𝙏𝙚𝙣𝙜𝙤 ${rtotalreg} 𝙐𝙨𝙪𝙖𝙧𝙞𝙤𝙨 𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙙𝙤𝙨*
 
-📂 *${totalreg} No Estan Registrados*` )
+📂 *${totalreg} 𝙉𝙤 𝙀𝙨𝙩𝙖𝙣 𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙙𝙤𝙨*` )
 }
 
 }
