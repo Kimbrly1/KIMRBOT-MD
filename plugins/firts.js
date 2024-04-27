@@ -7,13 +7,12 @@ if (m.chat.endsWith('broadcast') || m.fromMe || m.isGroup) return
 let user = global.db.data.users[m.sender]
 
 if (new Date() - user.pc < 21600000) return
-await m.reply(`⚠👽 Hey Humeno.. ${username}¡!
+await m.reply(`👽 𝙃𝙚𝙮 𝙃𝙪𝙢𝙖𝙣𝙤.. ${username}¡!
  *${saludo}*
 
-*⚠️ Nota:* *No Esta Permitido Escribirme Por Privado*
-⚡️ Escriba !menu Para Ver Los Comandos Que Dispongo!
+ ⚠️ 𝙉𝙤𝙩𝙖: 𝙉𝙤 𝙀𝙨𝙩𝙖 𝙋𝙚𝙢𝙞𝙩𝙞𝙙𝙤 𝙀𝙨𝙘𝙧𝙞𝙗𝙞𝙧𝙢𝙚 𝘼𝙡 𝙋𝙧𝙞𝙫𝙖𝙙𝙤
 
-*⚡ Si Tienes Duda O Sugerencia Contacta A Mi Creador: 🌴*
+ꨄ︎ 𝘾𝙤𝙣𝙩𝙖𝙘𝙩𝙖 𝘼 𝙈𝙞 𝘾𝙧𝙚𝙖𝙙𝙤𝙧: 🌴
 👑 Wa.me/593992402778 ⚡`)
 
 user.pc = new Date * 1
