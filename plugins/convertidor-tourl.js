@@ -3,11 +3,11 @@ import uploadImage from '../lib/uploadImage.js';
 const handler = async (m) => {
   const q = m.quoted ? m.quoted : m;
   const mime = (q.msg || q).mimetype || '';
-  if (!mime) throw '*⚠️ Responda A Una Imagen.*';
+  if (!mime) throw '*⚠️ 𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙖 𝘼 𝙐𝙣𝙖 𝙄𝙢𝙖𝙜𝙚𝙣..*';
   const media = await q.download();
   const isTele = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime);
   const link = await (isTele ? uploadImage : uploadFile)(media);
-  m.reply(`*📖 Enlace:* ${link}`);
+  m.reply(`*📖 𝙀𝙣𝙡𝙖𝙘𝙚:* ${link}`);
 };
 handler.help = ['tourl <reply image>'];
 handler.tags = ['sticker'];
