@@ -1,6 +1,6 @@
 const handler = async (m, {isPrems, conn}) => {
   const time = global.db.data.users[m.sender].lastcofre + 86400000; // 36000000 10 Horas //86400000 24 Horas
-  if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `🥀 Ya Reclamastes Tu Cofre\n⏰️Regresa En: *${msToTime(time - new Date())}* Para Volver A Reclamar`;
+  if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) throw `😏 𝙔𝙖 𝙊𝙗𝙩𝙪𝙫𝙞𝙨𝙩𝙚𝙨 𝙏𝙪 𝘾𝙤𝙛𝙧𝙚\n 𝙑𝙪𝙚𝙡𝙫𝙚 𝙀𝙣: *${msToTime(time - new Date())}* 𝙋𝙖𝙧𝙖 𝙑𝙤𝙡𝙫𝙚𝙧 𝘼 𝙍𝙚𝙘𝙡𝙖𝙢𝙖𝙧`;
 
   const img = 'https://telegra.ph/file/62ba6688963b0ad407edd.png';
   const dia = Math.floor(Math.random() * 30);
@@ -14,14 +14,14 @@ const handler = async (m, {isPrems, conn}) => {
   global.db.data.users[m.sender].exp += expp;
 
   const texto = `
-╔══🎉═🎉═🎉══⬣
-║🧸 *Obtienes Un Cofre*
+╔══✨═✨═✨══⬣
+║🧸 𝙊𝙗𝙩𝙞𝙚𝙣𝙚𝙨 𝙐𝙣 𝘾𝙤𝙛𝙧𝙚
 ║ ${saludo}
 ║┈┈┈┈┈┈┈┈┈┈┈┈┈
-║ *${dia} Diamantes* 💎
-║ *${tok} Tokens* 🪙
-║ *${mystic} SakuCoins* 💸
-║ *${expp} Exp* ⚡
+║ *${dia} 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨* 💎
+║ *${tok} 𝙏𝙤𝙠𝙚𝙣𝙨* 🪙
+║ *${mystic} 𝙔𝙚𝙧𝙖𝙮𝘾𝙤𝙞𝙣𝙨* 💸
+║ *${expp} 𝙀𝙭𝙥* ⚡
 ╚═════════════════⬣`;
 
   const fkontak = {
