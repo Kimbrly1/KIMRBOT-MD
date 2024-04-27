@@ -13,41 +13,41 @@ export async function before(m, {conn, participants}) {
   const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
 
   if (chat.detect2 && m.messageStubType == 29) {
-    let txt1 = `_Recientemente Se Ha Promovido Un Nuevo Administrador._\n\n`;
-    txt1 += `*Grupo:* ${groupName}\n`;
-    txt1 += `*Nuevo Admin:* @${m.messageStubParameters[0].split`@`[0]}\n`;
-    txt1 += `*Le Dió Admin:* @${m.sender.split`@`[0]}`;
+    let txt1 = `𝙍𝙚𝙘𝙞𝙚𝙣𝙩𝙚𝙢𝙚𝙣𝙩𝙚 𝙎𝙚 𝙃𝙖 𝙋𝙧𝙤𝙢𝙤𝙫𝙞𝙙𝙤 𝙐𝙣 𝙉𝙪𝙚𝙫𝙤 𝘼𝙙𝙢𝙞𝙣𝙞𝙨𝙩𝙧𝙖𝙙𝙤𝙧.\n\n`;
+    txt1 += `*𝙂𝙧𝙪𝙥𝙤:* ${groupName}\n`;
+    txt1 += `*𝙉𝙪𝙚𝙫𝙤 𝘼𝙙𝙢𝙞𝙣:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+    txt1 += `*𝙇𝙚 𝘿𝙞𝙤 𝘼𝙙𝙢𝙞𝙣:* @${m.sender.split`@`[0]}`;
     await conn.sendMessage(m.chat, {image: img, caption: txt1, mentions: mentionsString}, {quoted: fkontak2});
   }
 
   if (chat.detect2 && m.messageStubType == 30) {
-    let txt2 = `_Recientemente Se Ha Desgradado Ha Un Administrador._\n\n`;
-    txt2 += `*Grupo:* ${groupName}\n`;
-    txt2 += `*Se Quito A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
-    txt2 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
+    let txt2 = `𝙍𝙚𝙘𝙞𝙚𝙣𝙩𝙚𝙢𝙚𝙣𝙩𝙚 𝙎𝙚 𝙃𝙖 𝘿𝙚𝙨𝙜𝙧𝙖𝙙𝙖𝙙𝙤 𝙃𝙖 𝙐𝙣 𝘼𝙙𝙢𝙞𝙣𝙞𝙨𝙩𝙧𝙖𝙙𝙤𝙧.\n\n`;
+    txt2 += `*𝙂𝙧𝙪𝙥𝙤:* ${groupName}\n`;
+    txt2 += `*𝙎𝙚 𝙌𝙪𝙞𝙩𝙤 𝘼:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+    txt2 += `*𝙀𝙟𝙚𝙘𝙪𝙩𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     await conn.sendMessage(m.chat, {image: img, caption: txt2, mentions: mentionsString}, {quoted: fkontak2});
   }
 
   if (chat.detect2 && m.messageStubType == 27) {
-    let txt3 = `_Recientemente Se Ha Incorporado Al Grupo Un Nuevo Miembro._\n\n`;
-    txt3 += `*Grupo:* ${groupName}\n`;
+    let txt3 = `𝙍𝙚𝙘𝙞𝙚𝙣𝙩𝙚𝙢𝙚𝙣𝙩𝙚 𝙎𝙚 𝙃𝙖 𝙄𝙣𝙘𝙤𝙧𝙥𝙤𝙧𝙖𝙙𝙤 𝘼𝙡 𝙂𝙧𝙪𝙥𝙤 𝙐𝙣 𝙉𝙪𝙚𝙫𝙤 𝙈𝙞𝙚𝙢𝙗𝙧𝙤.\n\n`;
+    txt3 += `*𝙂𝙧𝙪𝙥𝙤:* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
-      txt3 += `*Se Añadio A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
-      txt3 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
+      txt3 += `*𝙎𝙚 𝘼𝙣𝙖𝙙𝙞𝙤 𝘼:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt3 += `*𝙀𝙟𝙚𝙘𝙪𝙩𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     } else {
-      txt3 += `*Se Añadio A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt3 += `*𝙎𝙚 𝘼𝙣𝙖𝙙𝙞𝙤 𝘼:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     }
     await conn.sendMessage(m.chat, {image: img, caption: txt3, mentions: mentionsContentM}, {quoted: fkontak2});
   }
 
   if (chat.detect2 && m.messageStubType == 28) {
-    let txt4 = `_Recientemente Se Ha Eliminado A Un Miembro Del Grupo._\n\n`;
-    txt4 += `*Grupo:* ${groupName}\n`;
+    let txt4 = `𝙍𝙚𝙘𝙞𝙚𝙣𝙩𝙚𝙢𝙚𝙣𝙩𝙚 𝙎𝙚 𝙃𝙖 𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙙𝙤 𝘼 𝙐𝙣 𝙈𝙞𝙚𝙢𝙗𝙧𝙤 𝘿𝙚𝙡 𝙂𝙧𝙪𝙥𝙤.\n\n`;
+    txt4 += `*𝙂𝙧𝙪𝙥𝙤:* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
-      txt4 += `*Participante Eliminado:* @${m.messageStubParameters[0].split`@`[0]}\n`;
-      txt4 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
+      txt4 += `*𝙋𝙖𝙧𝙩𝙞𝙘𝙞𝙥𝙖𝙣𝙩𝙚 𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙙𝙤:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt4 += `*𝙀𝙟𝙚𝙘𝙪𝙩𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     } else {
-      txt4 += `*Se Eliminó A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt4 += `*𝙎𝙚 𝙀𝙡𝙞𝙢𝙞𝙣𝙤 𝘼:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     }
     await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt4, mentions: mentionsContentM}, {quoted: fkontak2});
   }
@@ -55,17 +55,17 @@ export async function before(m, {conn, participants}) {
   if (chat.detect2 && m.messageStubType == 32) {
     let ax;
     if (m.messageStubParameters[0] === m.sender) {
-      ax = 'Salido';
+      ax = '𝙎𝙖𝙡𝙞𝙙𝙤';
     } else {
-      ax = 'Eliminado';
+      ax = '𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙙𝙤:';
     }
-    let txt5 = `_Recientemente Se Ha ${ax} Un  Miembro Del Grupo._\n\n`;
-    txt5 += `*Grupo:* ${groupName}\n`;
-    if (ax === 'Eliminado') {
-      txt5 += `*Se Eliminó A:* @${m.messageStubParameters[0].split`@`[0]}\n`;
-      txt5 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
+    let txt5 = `𝙍𝙚𝙘𝙞𝙚𝙣𝙩𝙚𝙢𝙚𝙣𝙩𝙚 𝙎𝙚 𝙃𝙖 ${ax} 𝙐𝙣  𝙈𝙞𝙚𝙢𝙗𝙧𝙤 𝘿𝙚𝙡 𝙂𝙧𝙪𝙥𝙤.\n\n`;
+    txt5 += `*𝙂𝙧𝙪𝙥𝙤:* ${groupName}\n`;
+    if (ax === '𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙙𝙤') {
+      txt5 += `*𝙎𝙚 𝙀𝙡𝙞𝙢𝙞𝙣𝙤 𝘼:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt5 += `*𝙀𝙟𝙚𝙘𝙪𝙩𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     } else {
-      txt5 += `*Se Salio:* @${m.messageStubParameters[0].split`@`[0]}\n`;
+      txt5 += `*𝙎𝙚 𝙎𝙖𝙡𝙞𝙤:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     }
     await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt5, mentions: mentionsContentM}, {quoted: fkontak2});
   }
@@ -73,21 +73,21 @@ export async function before(m, {conn, participants}) {
   if (chat.detect2 && m.messageStubType == 26) {
     let accion;
     if (m.messageStubParameters[0].split`@`[0] === 'on') {
-      accion = 'Cerrado';
+      accion = '𝘾𝙚𝙧𝙧𝙖𝙙𝙤';
     } else {
-      accion = 'Abierto';
+      accion = '𝘼𝙗𝙞𝙚𝙧𝙩𝙤';
     }
-    let txt6 = `_Se Ha Realizado Una Nueva Configuracion Al Grupo._\n\n`;
-    txt6 += `*Grupo:* ${groupName}\n`;
-    txt6 += `*El Grupo Se A:* ${'```' + accion + '```'}\n`;
-    txt6 += `*Ejecutado Por:* @${m.sender.split`@`[0]}`;
+    let txt6 = `𝙎𝙚 𝙃𝙖 𝙍𝙚𝙖𝙡𝙞𝙯𝙖𝙙𝙤 𝙐𝙣𝙖 𝙉𝙪𝙚𝙫𝙖 𝘾𝙤𝙣𝙛𝙞𝙜𝙪𝙧𝙖𝙘𝙞𝙤𝙣 𝘼𝙡 𝙂𝙧𝙪𝙥𝙤.\n\n`;
+    txt6 += `*𝙂𝙧𝙪𝙥𝙤:* ${groupName}\n`;
+    txt6 += `*𝙀𝙡 𝙂𝙧𝙪𝙥𝙤 𝙎𝙚 𝘼:* ${'```' + accion + '```'}\n`;
+    txt6 += `*𝙀𝙟𝙚𝙘𝙪𝙩𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt6, mentions: mentionsContentM}, {quoted: fkontak2});
   }
 
   if (chat.detect2 && m.messageStubType == 21) {
-    let txt7 = `_Se Ha Cambiado El Nombre Del Grupo._\n\n`;
-    txt7 += `*Nuevo Nombre:* ${'```' + groupName + '```'}\n`;
-    txt7 += `*Realizado Por:* @${m.sender.split`@`[0]}`;
+    let txt7 = `𝙎𝙚 𝙃𝙖 𝘾𝙖𝙢𝙗𝙞𝙖𝙙𝙤 𝙀𝙡 𝙉𝙤𝙢𝙗𝙧𝙚 𝘿𝙚𝙡 𝙂𝙧𝙪𝙥𝙤.\n\n`;
+    txt7 += `*𝙉𝙪𝙚𝙫𝙤 𝙉𝙤𝙢𝙗𝙧𝙚:* ${'```' + groupName + '```'}\n`;
+    txt7 += `*𝙍𝙚𝙖𝙡𝙞𝙯𝙖𝙙𝙤 𝙋𝙤𝙧:* @${m.sender.split`@`[0]}`;
     await conn.sendMessage(m.chat, {image: {url: pp}, caption: txt7, mentions: mentionsContentM}, {quoted: fkontak2});
   }
 }
