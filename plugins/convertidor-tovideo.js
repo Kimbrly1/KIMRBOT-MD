@@ -1,9 +1,9 @@
 import {webp2mp4} from '../lib/webp2mp4.js';
 import {ffmpeg} from '../lib/converter.js';
 const handler = async (m, {conn, usedPrefix, command}) => {
-  if (!m.quoted) throw `*🍧 Responda A Un Sticker Que Desee Convertir En  Video Con El Comando ${usedPrefix + command}*`;
+  if (!m.quoted) throw `*⚠ 𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙖 𝘼 𝙐𝙣 𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙌𝙪𝙚 𝘿𝙚𝙨𝙚𝙚 𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙞𝙧 𝙀𝙣  𝙑𝙞𝙙𝙚𝙤 𝘾𝙤𝙣 𝙀𝙡 𝘾𝙤𝙢𝙖𝙣𝙙𝙤 ${usedPrefix + command}*`;
   const mime = m.quoted.mimetype || '';
-  if (!/webp/.test(mime)) throw `*🍧 Responda A Un Sticker Que Desee Convertir En  Video Con El Comando ${usedPrefix + command}*`;
+  if (!/webp/.test(mime)) throw `*⚠ 𝙍𝙚𝙨𝙥𝙤𝙣𝙙𝙖 𝘼 𝙐𝙣 𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙌𝙪𝙚 𝘿𝙚𝙨𝙚𝙚 𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙞𝙧 𝙀𝙣  𝙑𝙞𝙙𝙚𝙤 𝘾𝙤𝙣 𝙀𝙡 𝘾𝙤𝙢𝙖𝙣𝙙𝙤 ${usedPrefix + command}*`;
   const media = await m.quoted.download();
   let out = Buffer.alloc(0);
   if (/webp/.test(mime)) {
