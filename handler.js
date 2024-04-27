@@ -1275,11 +1275,11 @@ _Si Consideras Que Es Un Error Y Si Tienes Pruebas, Puedes Comunicarte Con El Pr
           m.exp += xp;
         }
         if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-          mconn.conn.reply(m.chat, `*💎 Te As Quedado Sin Diamantes, Compra Dimantes Utilizando El Comando: ${usedPrefix}buyall*`, m);
+          mconn.conn.reply(m.chat, `💎 𝙏𝙚 𝙃𝙖𝙨 𝙌𝙪𝙚𝙙𝙖𝙙𝙤 𝙎𝙞𝙣 𝙈𝙪𝙣𝙞𝙘𝙞𝙤𝙣𝙚𝙨🥲, 𝘾𝙤𝙢𝙥𝙧𝙖 𝙈𝙪𝙣𝙞𝙘𝙞𝙤𝙣𝙚𝙨 𝘾𝙤𝙣 𝙀𝙨𝙩𝙚 𝘾𝙤𝙢𝙖𝙣𝙙𝙤: ${usedPrefix}buyall*`, m);
           continue; 
         }
         if (plugin.level > _user.level) {
-          mconn.conn.reply(m.chat, `*🧸 Se Requiere Tener El Nivel ${plugin.level} Para Poder Utilizar El Comando. Tu Nivel Actual Es ${_user.level}, Usa El Comando: ${usedPrefix} lvl Para Subir De Nivel Con Exp.*`, m);
+          mconn.conn.reply(m.chat, `*📌 𝙎𝙚 𝙉𝙚𝙘𝙚𝙨𝙞𝙩𝙖 𝙀𝙡 𝙉𝙞𝙫𝙚𝙡 ${plugin.level} 𝙋𝙖𝙧𝙖 𝙋𝙤𝙙𝙚𝙧 𝙐𝙩𝙞𝙡𝙞𝙯𝙖𝙧 𝙀𝙡 𝘾𝙤𝙢𝙖𝙣𝙙𝙤. 𝙏𝙪 𝙉𝙞𝙫𝙚𝙡 𝘼𝙘𝙩𝙪𝙖𝙡 𝙀𝙨 ${_user.level}, 𝙐𝙨𝙖 𝙀𝙡 𝘾𝙤𝙢𝙖𝙣𝙙𝙤 ${usedPrefix} 𝙇𝙫𝙡 𝙋𝙖𝙧𝙖 𝙎𝙪𝙗𝙞𝙧 𝘿𝙚 𝙉𝙞𝙫𝙚𝙡 𝘾𝙤𝙣 𝙀𝙭𝙥*`, m);
           continue; 
         }
         const extra = {
