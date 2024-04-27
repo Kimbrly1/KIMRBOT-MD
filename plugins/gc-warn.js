@@ -14,7 +14,7 @@ const handler = async (m, {conn, text, command, usedPrefix}) => {
   const dReason = 'Sin motivo';
   const msgtext = text || dReason;
   const sdms = msgtext.replace(/@\d+-?\d* /g, '');
-  const warntext = `*Etiqueta a algun usuario o responda a un mensaje del grupo\n\n*Ejemplo:*\n*${
+  const warntext = `*𝙀𝙩𝙞𝙦𝙪𝙚𝙩𝙖 𝙖 𝙖𝙡𝙜𝙪𝙣 𝙪𝙨𝙪𝙖𝙧𝙞𝙤 𝙤 𝙧𝙚𝙨𝙥𝙤𝙣𝙙𝙖 𝙖 𝙪𝙣 𝙢𝙚𝙣𝙨𝙖𝙟𝙚 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤\n\n*𝙀𝙟𝙚𝙢𝙥𝙡𝙤:*\n*${
     usedPrefix + command
   } @${global.suittag}*`;
   if (!who) {
@@ -24,7 +24,7 @@ const handler = async (m, {conn, text, command, usedPrefix}) => {
   await m.reply(
       `${
       user.warn == 1 ? `*@${who.split`@`[0]}*` : `*@${who.split`@`[0]}*`
-      } Recibió una advertencia en este grupo!\nMotivo: ${sdms}\n*ADVERTENCIAS ${
+      } 𝙍𝙚𝙘𝙞𝙗𝙞𝙤 𝙪𝙣𝙖 𝙖𝙙𝙫𝙚𝙧𝙩𝙚𝙣𝙘𝙞𝙖 𝙚𝙣 𝙚𝙨𝙩𝙚 𝙜𝙧𝙪𝙥𝙤!\n𝙈𝙤𝙩𝙞𝙫𝙤: ${sdms}\n*𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼𝙎 ${
         user.warn
       }/3*`,
       null,
@@ -33,14 +33,14 @@ const handler = async (m, {conn, text, command, usedPrefix}) => {
   if (user.warn >= 3) {
     if (!bot.restrict) {
       return m.reply(
-          '*¡Este Comando Esta Desabilitado Por El Propietario Del Bot!*',
+          '*¡𝙀𝙨𝙩𝙚 𝘾𝙤𝙢𝙖𝙣𝙙𝙤 𝙀𝙨𝙩𝙖 𝘿𝙚𝙨𝙖𝙗𝙞𝙡𝙞𝙩𝙖𝙙𝙤 𝙋𝙤𝙧 𝙀𝙡 𝙋𝙧𝙤𝙥𝙞𝙚𝙩𝙖𝙧𝙞𝙤 𝘿𝙚𝙡 𝘽𝙤𝙩!*',
       );
     }
     user.warn = 0;
     await m.reply(
-        `Te lo advertí varias veces\n*@${
+        `𝙏𝙚 𝙡𝙤 𝙖𝙙𝙫𝙚𝙧𝙩𝙞 𝙫𝙖𝙧𝙞𝙖𝙨 𝙫𝙚𝙘𝙚𝙨\n*@${
           who.split`@`[0]
-        }* Superastes las *3* advertencias, procedo a eliminarte 🍧`,
+        }* 𝙎𝙪𝙥𝙚𝙧𝙖𝙨𝙩𝙚𝙨 𝙡𝙖𝙨 *𝟯* 𝙖𝙙𝙫𝙚𝙧𝙩𝙚𝙣𝙘𝙞𝙖𝙨, 𝙥𝙧𝙤𝙘𝙚𝙙𝙤 𝙖 𝙚𝙡𝙞𝙢𝙞𝙣𝙖𝙧𝙩𝙚 😠`,
         null,
         {mentions: [who]},
     );
