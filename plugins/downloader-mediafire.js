@@ -4,15 +4,15 @@ import cheerio from 'cheerio';
 import {mediafiredl} from '@bochilteam/scraper';
 
 const handler = async (m, {conn, args, usedPrefix, command}) => {
-  if (!args[0]) throw `*🌿Error Por Favor Envie Un Link De Mediafire, Similar A: ${usedPrefix + command} https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*`;
+  if (!args[0]) throw `*⚠ 𝙀𝙧𝙧𝙤𝙧 𝙋𝙤𝙧 𝙁𝙖𝙫𝙤𝙧 𝙀𝙣𝙫𝙞𝙚 𝙐𝙣 𝙇𝙞𝙣𝙠 𝘿𝙚 𝙈𝙚𝙙𝙞𝙖𝙛𝙞𝙧𝙚, 𝙎𝙞𝙢𝙞𝙡𝙖𝙧 𝘼: ${usedPrefix + command} https://www.mediafire.com/file/1e9xj7xfea2k9jy/termux-0-119-1.apk/file*`;
   try {
     const resEX = await mediafiredl(args[0]);
     const captionES = `
-*⚘️ Nombre:* ${resEX.filename}
-*🥀 Peso:* ${resEX.filesizeH}
-*🐈 Tipo:* ${resEX.ext}
+*⚘️ 𝙉𝙤𝙢𝙗𝙧𝙚:* ${resEX.filename}
+*💥 𝙋𝙚𝙨𝙤:* ${resEX.filesizeH}
+*🐈 𝙏𝙞𝙥𝙤:* ${resEX.ext}
 
-_*⏳ Hey Espere Estoy Enviando Su Archivo. . . .*_`.trim();
+_*⏳ 𝙃𝙚𝙮 𝙀𝙨𝙥𝙚𝙧𝙚 𝙀𝙨𝙩𝙤𝙮 𝙀𝙣𝙫𝙞𝙖𝙣𝙙𝙤 𝙎𝙪 𝘼𝙧𝙘𝙝𝙞𝙫𝙤. . . .*_`.trim();
     m.reply(captionES);
     await conn.sendFile(m.chat, resEX.url, resEX.filename, '', m, null, {mimetype: resEX.ext, asDocument: true});
   } catch {
@@ -20,15 +20,15 @@ _*⏳ Hey Espere Estoy Enviando Su Archivo. . . .*_`.trim();
       const res = await mediafireDl(args[0]);
       const {name, size, date, mime, link} = res;
       const caption = `
-*⚘️ Nombre:* ${name}
-*🥀 Peso:* ${size}
-*🐈 Tipo:* ${mime}
+*⚘️ 𝙉𝙤𝙢𝙗𝙧𝙚:* ${name}
+*💥 𝙋𝙚𝙨𝙤:* ${size}
+*🐈 𝙏𝙞𝙥𝙤:* ${mime}
 
- _*⏳ Hey Espere Estoy Enviando Su Archivo. . . .*_`.trim();
+ _*⏳ 𝙃𝙚𝙮 𝙀𝙨𝙥𝙚𝙧𝙚 𝙀𝙨𝙩𝙤𝙮 𝙀𝙣𝙫𝙞𝙖𝙣𝙙𝙤 𝙎𝙪 𝘼𝙧𝙘𝙝𝙞𝙫𝙤. . . .*_`.trim();
       await m.reply(caption);
       await conn.sendFile(m.chat, link, name, '', m, null, {mimetype: mime, asDocument: true});
     } catch {
-      await m.reply('*🌿Error Por Favor Envie Un Link De Mediafire, Similar A:*\n*◉ https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*');
+      await m.reply('*⚠ 𝙀𝙧𝙧𝙤𝙧 𝙋𝙤𝙧 𝙁𝙖𝙫𝙤𝙧 𝙀𝙣𝙫𝙞𝙚 𝙐𝙣 𝙇𝙞𝙣𝙠 𝘿𝙚 𝙈𝙚𝙙𝙞𝙖𝙛𝙞𝙧𝙚, 𝙎𝙞𝙢𝙞𝙡𝙖𝙧 𝘼:*\n*◉ https://www.mediafire.com/file/1e9xj7xfea2k9jy/termux-0-119-1.apk/file*');
     }
   }
 };
