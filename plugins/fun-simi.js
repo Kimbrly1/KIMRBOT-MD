@@ -20,11 +20,11 @@ const handler = async (m, {text, command, args, usedPrefix}) => {
       const resu2 = await reis2.json();
       m.reply(resu2[0][0][0]);
     } catch {
-      throw `🧸 *Ocurrió Un Error*`;
+      throw `⚠️ 𝙊𝘾𝙐𝙍𝙍𝙄𝙊 𝙐𝙉 𝙀𝙍𝙍𝙊𝙍`;
     }
   }
 };
 handler.help = ['simi', 'bot'].map((v) => v + ' <teks>');
 handler.tags = ['fun'];
-handler.command = /^((sim)?simi|saku|alexa|bot)$/i;
+handler.command = /^((sim)?simi|yeray|alexa|bot)$/i;
 export default handler;
