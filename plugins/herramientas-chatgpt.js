@@ -1,16 +1,16 @@
-/* -------------------------------------------------------*/
-/* [❗]                      [❗]                      [❗] */
+/* ------------------------------------------------------*/
+/* [❗]                      [❗]                   [❗] */
 /*                                                       */
 /*       |- [ ⚠ ] - CREDITOS DEL CODIGO - [ ⚠ ] -|      */
-/*     —◉ DESAROLLADO POR OTOSAKA:                       */
-/*     ◉ Otosaka (https://github.com/6otosaka9)          */
-/*     ◉ Número: wa.me/51993966345                       */
+/*     —◉ DESAROLLADO POR SEBAS.MVP:                     */
+/*     ◉ Sebas.mvp (https://github.com/sebasmpv)         */
+/*     ◉ Número: wa.me/593992402778                      */
 /*                                                       */
 /*     —◉ FT:                                            */
-/*     ◉ BrunoSobrino (https://github.com/BrunoSobrino)  */
+/*     ◉ Alee.mvp (https://github.com/ale-rmz)           */
 /*                                                       */
-/* [❗]                      [❗]                      [❗] */
-/* -------------------------------------------------------*/
+/* [❗]                      [❗]                   [❗] */
+/* ------------------------------------------------------*/
 import fetch from 'node-fetch';
 import axios from 'axios';
 import translate from '@vitalets/google-translate-api';
