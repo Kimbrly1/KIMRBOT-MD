@@ -6,7 +6,7 @@
  
 ### 𝗬𝗲𝗿𝗮𝘆 : 𝘽𝙤𝙩 - 𝙈𝘿🥷🏻🔥
 <p align="center">
-<img src="https://github.com/sebasmpv/YerayBot-MD/blob/master/Menu3.png" width="900"/>
+<img src=https://github.com/Kimbrly1/KIMRBOT-MD/blob/master/Menu3.png" width="900"/>
 </p>
 
 
