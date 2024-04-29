@@ -33,12 +33,12 @@ global.prems = ['50433102145'];
 global.lenguajeSK = es //idioma de yeraybot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿';
+global.packname = '𝙆𝙞𝙢𝘽𝙤𝙩-𝙈𝘿';
 global.author = 'Kim ✨';
-global.wm = '𝙔𝙚𝙧𝙖𝙮 : 𝘽𝙤𝙩';
-global.sk = '𝙔𝙚𝙧𝙖𝙮 : 𝘽𝙤𝙩 - 𝙈𝘿';
-global.titulowm = '𝙔𝙚𝙧𝙖𝙮 : 𝘽𝙤𝙩';
-global.titulowm2 = `𝘠𝘦𝘳𝘢𝘺 𝙊𝙛𝙞𝙘𝙞𝙖𝙡`
+global.wm = '𝙆𝙞𝙢 : 𝘽𝙤𝙩';
+global.sk = '𝙆𝙞𝙢 : 𝘽𝙤𝙩 - 𝙈𝘿';
+global.titulowm = '𝙆𝙞𝙢 : 𝘽𝙤𝙩';
+global.titulowm2 = `𝙆𝙞𝙢 𝙊𝙛𝙞𝙘𝙞𝙖𝙡`
 global.igfg = 'Kim Oficial';
 global.vs = '1.0.7';
 k
