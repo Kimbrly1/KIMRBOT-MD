@@ -1,5 +1,5 @@
 /*     ◉ Otosaka (https://github.com/sebasmpv)
-     ◉ Número: wa.me/59399240278/*
+     ◉ Número: wa.me/59399240278*/
 
 import fetch from 'node-fetch';
 import gtts from 'node-gtts';
