@@ -329,11 +329,11 @@ if (opcion == '1' || methodCodeQR) {
  }}
    if (connection == 'open') {
 console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 💥 • ┈ ┈ ┈ ┈ ┈╮\n┊ 🔰 CONEXIÓN EXITOSA CON WHATSAPP 🔰\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈  ┈╯\n'))
-//conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy YerayBot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
+//conn.fakeReply('593992402778@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy KimBot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
-await fs.unlinkSync("./YerayBotSession/" + "creds.json")
+await fs.unlinkSync("./KimBotSession/" + "creds.json")
 console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
 process.send('reset')}
 if (connection === 'close') {
