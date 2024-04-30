@@ -1,5 +1,5 @@
 //
-// By @Sebas.mvp_oficial0 || https://github.com/Kimbrly1
+// By @Kimberly || https://github.com/Kimbrly1
 //
 
 import * as fs from 'fs';
