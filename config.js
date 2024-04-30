@@ -13,35 +13,35 @@ global.confirmCode = ""
 
 //• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
 global.owner = [
-['50487499606', '𝙆𝙞𝙢 (𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐚) 💌', true],
-['593992402778', '𝙎𝙚𝙗𝙖𝙨 (𝐂𝐫𝐞𝐚𝐝𝐨𝐫) 💎', true],
-['593967323759', '𝙄𝙨𝙢𝙖𝙚𝙡 (𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿) 🔍', true],
-['593982981749', '𝙅𝙖𝙧𝙞𝙚𝙡 (𝗦𝘂𝗽𝗽𝗼𝗿𝘁) 💻', true],
-['593969499267', '𝙎𝙩𝙚𝙫𝙚𝙣 (𝗘𝗱𝗶𝘁𝗼𝗿) 💻', true]]
+['593992402778', '👽 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 💥', true],
+['50487499606', '𝐊𝐢𝐦𝐛𝐞𝐫𝐥𝐲 (𝗢𝘄𝗻𝗲𝗿) 📖', true],
+['593967323759', '𝐈𝐬𝐦𝐚𝐞𝐥 (𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿)🔍', true],
+['593982981749', '𝐉𝐚𝐫𝐢𝐞𝐥 (𝗦𝘂𝗽𝗽𝗼𝗿𝘁) 💻', true],
+['593969499267', '𝐒𝐭𝐞𝐯𝐞𝐧 (𝗘𝗱𝗶𝘁𝗼𝗿) 💻', true]]
 
 //• ↳𝑨𝑮𝑹𝑬𝑮𝑨𝑻𝑬 𝑺𝑰 𝑬𝑹𝑬𝑺 𝑶𝑾𝑵𝑬𝑹
 global.contactos = [
-["593992402778", '𝐒𝐞𝐛𝐚𝐬 (𝐂𝐫𝐞𝐚𝐝𝐨𝐫) 💎', 1],
-["50487499606", '𝐊𝐢𝐦𝐛𝐞𝐫𝐥𝐲 (𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐚) 💌', 1],
-["593967323759", '𝐈𝐬𝐦𝐚𝐞𝐥 (𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿) 🔍', 1],
+["593992402778", '𝐒𝐞𝐛𝐚𝐬 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 ✅', 1],
+["50487499606", '𝐊𝐢𝐦𝐛𝐞𝐫𝐥𝐲 (𝗢𝘄𝗻𝗲𝗿) 📖', 1],
+["593967323759", ' (𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿) 🔍', 1],
 ["593982981749", '𝐉𝐚𝐫𝐢𝐞𝐥 (𝗦𝘂𝗽𝗽𝗼𝗿𝘁) 💻', 1],
 ["593969499267", '𝐒𝐭𝐞𝐯𝐞𝐧 (𝗘𝗱𝗶𝘁𝗼𝗿) 💻', 1]]
 
-global.suittag = ['50487499606'];
-global.prems = ['50433102145'];
+global.suittag = ['593992402778'];
+global.prems = ['593995004980'];
 
-global.lenguajeSK = es //idioma de kimbot
+global.lenguajeSK = es //idioma de yeraybot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝙆𝙞𝙢𝘽𝙤𝙩-𝙈𝘿';
-global.author = 'Kim ✨';
-global.wm = '𝙆𝙞𝙢 : 𝘽𝙤𝙩';
-global.sk = '𝙆𝙞𝙢 : 𝘽𝙤𝙩 - 𝙈𝘿';
-global.titulowm = '𝙆𝙞𝙢 : 𝘽𝙤𝙩';
-global.titulowm2 = `𝙆𝙞𝙢 𝙊𝙛𝙞𝙘𝙞𝙖𝙡`
-global.igfg = 'Kim Oficial';
+global.packname = '𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿';
+global.author = 'Sebas 🌩';
+global.wm = '𝙔𝙚𝙧𝙖𝙮 : 𝘽𝙤𝙩';
+global.sk = '𝙔𝙚𝙧𝙖𝙮 : 𝘽𝙤𝙩 - 𝙈𝘿';
+global.titulowm = '𝙔𝙚𝙧𝙖𝙮 : 𝘽𝙤𝙩';
+global.titulowm2 = `𝘠𝘦𝘳𝘢𝘺 𝙊𝙛𝙞𝙘𝙞𝙖𝙡`
+global.igfg = 'Yeray Oficial';
 global.vs = '1.0.7';
-k
+
 //• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
 global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
 global.waitt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
@@ -59,11 +59,11 @@ global.imagen7 = fs.readFileSync('./AhoraQue.png');
 global.imagen8 = fs.readFileSync('./Que.jpg');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/KeSQTlDCoCL2OMXpJRtmQS' //Grupo Oficial De YerayBot
+global.gp1 = 'https://chat.whatsapp.com/KPZpP0VnlA875UpXCDPc0E' //Grupo Oficial De YerayBot
 
-global.gp2 = 'https://chat.whatsapp.com/KeSQTlDCoCL2OMXpJRtmQS' //Grupo Oficial De YerayBot
+global.gp2 = 'https://chat.whatsapp.com/EBrkzuIFCQfGCD6dfxjEFk' //𝘽 𝘖 𝘛 𝘚 :  𝙈 𝘝 𝘗 🔥🤖
 
-global.gp3 = 'https://chat.whatsapp.com/KeSQTlDCoCL2OMXpJRtmQS' //Yeray Bot-MD✅
+global.gp3 = 'https://chat.whatsapp.com/Djzqsr8k0onE9v1PoSAJwz' //SEBAS BOT-MD✅
 
 global.gp4 = 'https://chat.whatsapp.com/GFJQei0YqQFCaxaGM6wwXW' //SebastianBot - Community 👽💥
 
@@ -71,7 +71,7 @@ global.channel = 'https://whatsapp.com/channel/0029VaWIVax2975INZkaGi0s' //Canal
 
 global.yt = 'https://www.youtube.com/@sebas.mvp_official' //Canal De Youtube
 
-global.ig = 'https://www.instagram.com/yeray_bot_md' //Instagram Oficial
+global.md = 'https://github.com/ale-rmz/YerayBot-MD' //Github Oficial
 
 global.fb = 'https://www.facebook.com/profile.php?id=100091794702798' //Facebook Del Propietario
 
@@ -91,11 +91,11 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\KimBot`;
-global.gt = 'KimBot';
-global.mysticbot = 'KimBot';
-global.mysticbot = 'https://github.com/Kimbrly1/KIMRBOT-MD';
-global.nomorown = '50433102145';
+global.wm2 = `${dia} ${fecha}\nYerayBot`;
+global.gt = 'YerayBot';
+global.mysticbot = 'YerayBot';
+global.mysticbot = 'https://github.com/ale-rmz/YerayBot-MD';
+global.nomorown = '593992402778';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -110,8 +110,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*📅 Fecha:*  ${moment.tz('America/Tegucigalpa').format('DD/MM/YY')}`;
-global.bottime = `*🕒 Hora:* ${moment.tz('America/Tegucigalpa').format('HH:mm:ss')}`;
+global.botdate = `*📅 Fecha:*  ${moment.tz('America/Guayaquil').format('DD/MM/YY')}`;
+global.bottime = `*🕒 Hora:* ${moment.tz('America/Guayaquil').format('HH:mm:ss')}`;
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
