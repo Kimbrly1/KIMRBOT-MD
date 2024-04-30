@@ -1,7 +1,7 @@
 import moment from 'moment-timezone';
 import fetch from 'node-fetch';
 const handler = async (m, { conn, args }) => {
-   const res = await fetch('https://api.github.com/repos/sebasmpv/YerayBot-MD');
+   const res = await fetch('https://api.github.com/repos/Kimbrly1/KIMRBOT-MD');
    const json = await res.json();
    let txt = `           *🌴 𝗕𝗼𝘁 - 𝗦𝗰𝗿𝗶𝗽𝘁 ✨*\n\n`;
       txt += `◦  *𝐑𝐞𝐩𝐨:* ${json?.name || '🌴 𝐊𝐢𝐦𝐁𝐨𝐭-𝐌𝐃'}\n`;
