@@ -293,7 +293,7 @@ console.log(chalk.bold.red(`[ ⚠ ] Algo salio mal durante la eliminación, arch
 }}
 
 function purgeOldFiles() {
-const directories = ['./YerayBotSession/', './jadibts/']
+const directories = ['./KimBotSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
