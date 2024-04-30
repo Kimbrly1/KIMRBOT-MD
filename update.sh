@@ -1,8 +1,8 @@
 # Código desarrollado por @gata_dios 
   # * Al bifurcar este repositorio, dejen los créditos a todos los creadores de cada código por favor. ♥
 #!/data/data/com.termux/files/usr/bin/bash 
-BOT_DIR="YerayBot-MD"  
-BOT_REPO="https://github.com/sebasmvp/$BOT_DIR"
+BOT_DIR="KimBot-MD"  
+BOT_REPO="https://github.com/Kimbrly1/$BOT_DIR"
 DB_FILE="database.json"
 
 GREEN='\033[32m'
