@@ -33,6 +33,8 @@ const document = doc[Math.floor(Math.random() * doc.length)];
 *╭🧸⸽⃕𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗚𝗶𝘁𝗵𝘂𝗯📍✰*
 ┃ ┃✣➸ Sebas.mvp:
 ┃ https://github.com/sebasmvp
+┃ ┃Kimberly
+┃ https://github.com/Kimbrly1
 ┃
 ╰◆━━━━━━◆❃◆━━━━━━◆
 
