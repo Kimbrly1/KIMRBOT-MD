@@ -34,7 +34,7 @@ global.lenguajeSK = es //idioma de kimbot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝙆𝙞𝙢𝘽𝙤𝙩-𝙈𝘿';
-global.author = '𝙆𝙞𝙢 🌩';
+global.author = '𝙆𝙞𝙢 💝';
 global.wm = '𝙆𝙞𝙢 : 𝘽𝙤𝙩';
 global.sk = '𝙆𝙞𝙢 : 𝘽𝙤𝙩 - 𝙈𝘿';
 global.titulowm = '𝙆𝙞𝙢 : 𝘽𝙤𝙩';
