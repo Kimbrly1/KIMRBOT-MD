@@ -27,14 +27,6 @@
 </a>
 
 
-
-
-
-<a href="https://chat.whatsapp.com/KeSQTlDCoCL2OMXpJRtmQS"><img alt="📍 Grupo Oficial" src="https://img.shields.io/badge/Grupo-Oficial-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-
-
-
-
 ***
 
 ## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Creator 💎" width="42" height="42"> Creator 💎
