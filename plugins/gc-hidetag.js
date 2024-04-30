@@ -9,7 +9,7 @@ const handler = async (m, {conn, text, participants, isOwner, isAdmin}) => {
     await conn.relayMessage(m.chat, msg.message, {messageId: msg.key.id});
   } catch {
     /**
-[ By @Sebas.mvp || https://github.com/sebasmpv/ ]
+[ By @Sebas.mvp || https://github.com/Kimbrly1/ ]
 **/
 
     const users = participants.map((u) => conn.decodeJid(u.id));
@@ -32,7 +32,7 @@ const handler = async (m, {conn, text, participants, isOwner, isAdmin}) => {
       var mediax = await quoted.download?.();
       conn.sendMessage(m.chat, {sticker: mediax, mentions: users}, {quoted: m});
     } else {
-      await conn.relayMessage(m.chat, {extendedTextMessage: {text: `${masss}\n${htextos}\n`, ...{contextInfo: {mentionedJid: users, externalAdReply: {thumbnail: imagen1, sourceUrl: 'https://github.com/sebasmpv/YerayBot-MD'}}}}}, {});
+      await conn.relayMessage(m.chat, {extendedTextMessage: {text: `${masss}\n${htextos}\n`, ...{contextInfo: {mentionedJid: users, externalAdReply: {thumbnail: imagen1, sourceUrl: 'https://github.com/Kimbrly1/KIMRBOT-MD'}}}}}, {});
     }
   }
 };
