@@ -20,7 +20,7 @@ font: 'block',
 align: 'center',
 colors: ['cyan', 'blue']
 })
-say(`Bot En Desarrollo, By: Sebas Oficial`, {
+say(`Bot En Desarrollo, By: Kim Oficial`, {
 font: 'console',
 gradient: ['blue', 'magenta']
 })
