@@ -1,4 +1,4 @@
-//comando de https://github.com/sebasmpv/YerayBot-MD
+//comando de https://github.com/Kimbrly1/KIMRBOT-MD
 
 import speed from 'performance-now'
 import { spawn, exec, execSync } from 'child_process'
@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
 
-          m.reply(`${saludo}\n\n*🧸 El Bot Tiene 2 Metodos Para Vincularse A Tu WhatsApp.*\n\nSon:\n\n- Texto De 8 Digitos.\n- Codigo Qr.\n\n*📍 Espero Y Instales El Bot Y Uses El Metodo Que Puedas.*`);
+          m.reply(`${saludo}\n\n*📌 El Bot Tiene 2 Metodos Para Vincularse A Tu WhatsApp.*\n\nSon:\n\n- Texto De 8 Digitos.\n- Codigo Qr.\n\n*⚔️ Espero Y Instales El Bot Y Uses El Metodo Que Puedas.*`);
             });
 }
 handler.help = ['info']
