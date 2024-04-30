@@ -1,5 +1,5 @@
 {
-  "name": "YerayBot-MD",
+  "name": "KimBot-MD",
   "version": "1.0.7",
   "description": "El Mejor Bot",
   "main": "index.js",
@@ -20,14 +20,14 @@
   },
   "homepage": "https://www.instagram.com/yeray_bot_md",
   "author": {
-    "name": "sebasmvp"
+    "name": "Kim"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sebasmpv/YerayBot-MD.git"
+    "url": "git+https://github.com/Kimbrly1/KIMRBOT-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/sebasmpv/YerayBot-MD/issues"
+    "url": "https://github.com/Kimbrly1/KIMRBOT-MD/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
