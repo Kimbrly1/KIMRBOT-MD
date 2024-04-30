@@ -14,10 +14,10 @@ global.confirmCode = ""
 //• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
 global.owner = [
 ['50487499606', '😻 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐚 💌', true],
-['593986923159', '𝐒𝐞𝐛𝐚𝐬 𝐂𝐫𝐞𝐚𝐝𝐨𝐫💎', true],
-['593967323759', '𝐈𝐬𝐦𝐚𝐞𝐥 (𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿)🔍', true],
-['593982981749', '𝐉𝐚𝐫𝐢𝐞𝐥 (𝗦𝘂𝗽𝗽𝗼𝗿𝘁) 💻', true],
-['593969499267', '𝐒𝐭𝐞𝐯𝐞𝐧 (𝗘𝗱𝗶𝘁𝗼𝗿) 💻', true]]
+['593986923159', '𝐂𝐫𝐞𝐚𝐝𝐨𝐫💎', true],
+['593967323759', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 🔍', true],
+['593982981749', '𝗦𝘂𝗽𝗽𝗼𝗿𝘁 💻', true],
+['593969499267', '𝗘𝗱𝗶𝘁𝗼𝗿 💻', true]]
 
 //• ↳𝑨𝑮𝑹𝑬𝑮𝑨𝑻𝑬 𝑺𝑰 𝑬𝑹𝑬𝑺 𝑶𝑾𝑵𝑬𝑹
 global.contactos = [
@@ -30,7 +30,7 @@ global.contactos = [
 global.suittag = ['50487499606'];
 global.prems = ['50433102145'];
 
-global.lenguajeSK = es //idioma de yeraybot
+global.lenguajeSK = es //idioma de kimbot
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝙆𝙞𝙢𝘽𝙤𝙩-𝙈𝘿';
@@ -94,7 +94,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.wm2 = `${dia} ${fecha}\nYerayBot`;
 global.gt = 'YerayBot';
 global.mysticbot = 'YerayBot';
-global.mysticbot = 'https://github.com/sebasmpv/YerayBot-MD';
+global.mysticbot = 'https://github.com/Kimbrly1/';
 global.nomorown = '593992402778';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
