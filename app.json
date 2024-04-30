@@ -1,10 +1,10 @@
 {
-  "name": "YerayBot-MD",
-  "website": "https://github.com/sebasmpv",
+  "name": "KimBot-MD",
+  "website": "https://github.com/Kimbrly1",
   "description": "Mejor Bot",
   "repository": "https://www.instagram.com/yeray_bot_md",
-  "logo": "https://raw.githubusercontent.com/sebasmpv/YerayBot-MD/master/src/pictures/heroku-icon.jpg",
-  "success_url": "https://github.com/sebasmpv/YerayBot-MD",
+  "logo": "https://raw.githubusercontent.com/Kimbrly1/KIMRBOT-MD/master/src/pictures/heroku-icon.jpg",
+  "success_url": "https://github.com/Kimbrly1/KIMRBOT-MD",
   "keywords": [
     "nodejs",
     "heroku",
