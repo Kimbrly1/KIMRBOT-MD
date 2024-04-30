@@ -39,21 +39,20 @@
 
 ***
 
-## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Creator 👻" width="42" height="42"> Creator 👻
+## <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Creator 💝" width="42" height="42"> Creator 💝
 
-* <a href="https://wa.me/593992402778"><img alt="Creator 👻" src="https://img.shields.io/badge/Sebastian - Creator👻-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/593992402778"><img alt="Creator 💝" src="https://img.shields.io/badge/Sebastian - Creator💝-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
-## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial ✅
+## <img src="https://static.wikia.nocookie.net/nyancat/images/d/d3/Nyan-cat.gif/revision/latest/scale-to-width-down/400?cb=20131231222500&path-prefix=es" alt="Grupo" width="45" height="43"> Bot Oficial 😻💌
 
-* <a href="https://wa.me/593995004980?text=!menu"><img alt="Bot Oficial ✅" src="https://img.shields.io/badge/Bot - Oficial✅-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/50433102145?text=!menu"><img alt="Bot Oficial 😻💌" src="https://img.shields.io/badge/Bot - Oficial😻💌-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 > No Spam Al Bot!
 ---------
 
-### Editor Y Propietario Del Bot 🤖
-<a
-href="https://github.com/sebasmpvofficial"><img src="https://github.com/sebasmpvofficial.png" width="200" height="200" alt="Sebastian"/></a>
+### 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 𝘆 𝗘𝗱𝗶𝘁𝗼𝗿 𝗗𝗲𝗹 𝗕𝗼𝘁📌
+
 <a
 href="https://github.com/sebasmvp"><img src="https://github.com/sebasmvp.png" width="200" height="200" alt="Sebastian"/></a>
 
