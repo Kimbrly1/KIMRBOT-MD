@@ -27,7 +27,7 @@ global.contactos = [
 ["593982981749", '𝐉𝐚𝐫𝐢𝐞𝐥 (𝗦𝘂𝗽𝗽𝗼𝗿𝘁) 💻', 1],
 ["593969499267", '𝐒𝐭𝐞𝐯𝐞𝐧 (𝗘𝗱𝗶𝘁𝗼𝗿) 💻', 1]]
 
-global.suittag = ['593992402778'];
+global.suittag = ['50487499606'];
 global.prems = ['593995004980'];
 
 global.lenguajeSK = es //idioma de kimbot
