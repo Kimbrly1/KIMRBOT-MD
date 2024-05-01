@@ -13,7 +13,7 @@ let expp = Math.floor(Math.random() * 5000)
   global.db.data.users[m.sender].joincount += tok
   global.db.data.users[m.sender].exp += expp
 
-let texto = `*YerayBot-MD 💥*`
+let texto = `*𝙆𝙞𝙢𝘽𝙤𝙩-𝙈𝘿❤️‍🩹*`
 
 const fkontak = {
         "key": {
