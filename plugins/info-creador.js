@@ -9,7 +9,7 @@ handler.register = true
 export default handler
 
 /*let handler = async (m, { conn, usedPrefix, isOwner }) => {
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:👾 𝙈𝙮 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 ✨\nFN:👾 𝙈𝙮 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 ✨\nORG:👾 𝙈𝙮 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 ✨\nTITLE:\nitem1.TEL;waid=593992402778:5493585753625\nitem1.X-ABLabel:👾 𝙈𝙮 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 ✨\nX-WA-BIZ-DESCRIPTION:\nX-WA-BIZ-NAME:👾 𝙈𝙮 𝘾𝙧𝙚𝙖𝙩𝙤𝙧⚡️\nEND:VCARD`
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:👾 𝙈𝙮 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 ✨\nFN:👾 𝙈𝙮 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 ✨\nORG:👾 𝙈𝙮 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 ✨\nTITLE:\nitem1.TEL;waid=50487499606:50487499606\nitem1.X-ABLabel:👾 𝙈𝙮 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 ✨\nX-WA-BIZ-DESCRIPTION:\nX-WA-BIZ-NAME:👾 𝙈𝙮 𝘾𝙧𝙚𝙖𝙩𝙤𝙧⚡️\nEND:VCARD`
 await conn.sendMessage(m.chat, { contacts: { displayName: '👾𝙈𝙮 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 ✨', contacts: [{ vcard }] }}, {quoted: m})
 }
 handler.help = ['owner']
