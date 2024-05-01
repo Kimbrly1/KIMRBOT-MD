@@ -11,10 +11,10 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   return `
 *${1 + index}. ${repo.full_name}${repo.fork ? ' (fork)' : ''}*
 🔗 *Url:* ${repo.html_url}
-📍 *Creado el:* ${formatDate(repo.created_at)}
-🥀 *Actualizado el:* ${formatDate(repo.updated_at)}
+📌 *Creado el:* ${formatDate(repo.created_at)}
+🧑🏻‍💻 *Actualizado el:* ${formatDate(repo.updated_at)}
 ⚡️ *Clone:* $ git clone ${repo.clone_url}
-🚩 ${repo.watchers} ◉ 🍴 ${repo.forks} ◉ ⭐ ${repo.stargazers_count} ◉ ❓ 
+⚠️ ${repo.watchers} ◉ 🍴 ${repo.forks} ◉ ⭐ ${repo.stargazers_count} ◉ ❓ 
 ${repo.description ? `⏳️ *Descripción:*\n${repo.description}` : ''}
 `.trim()}).join('\n\n◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦◦\n\n');
   conn.sendMessage(m.chat, {text: str.trim()}, {quoted: m})
