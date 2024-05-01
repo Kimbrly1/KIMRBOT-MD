@@ -48,7 +48,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     } catch {
       try {
         conn.sendPresenceUpdate('composing', m.chat);
-        const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Sebastian, tu seras YerayBot-MD.`;
+        const syms1 = `𝘼𝙘𝙩𝙪𝙖𝙧𝙖𝙨 𝘾𝙤𝙢𝙤 𝙐𝙣 𝘽𝙤𝙩 𝘾𝙧𝙚𝙖𝙙𝙤𝙧 𝙋𝙤𝙧 @𝙎𝙚𝙗𝙖𝙨, 𝙩𝙚 𝙝𝙖𝙨 𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙞𝙙𝙤 𝙚𝙣 𝙆𝙞𝙢𝘽𝙤𝙩-𝙈𝘿.`;
         const fgapi1 = await fetch(`https://api-fgmods.ddns.net/api/info/openai?text=${text}&symsg=${syms1}&apikey=XlwAnX8d`);
         const fgjson1 = await fgapi1.json();
         if (fgjson1.result == 'error' || fgjson1.result == '' || !fgjson1.result) return XD; // causar error undefined para lanzar msg de error
