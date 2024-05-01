@@ -12,10 +12,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png');
   let fkon = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-    await conn.reply(m.chat, '*𝑪𝑨𝑹𝑮𝑨𝑵𝑫𝑶 𝑬𝑳 𝑴𝑬𝑵𝑼...*', fkon, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '💥 ¡𝗛𝗼𝗹𝗮!', body: '𝒀𝒆𝒓𝒂𝒚𝑩𝒐𝒕-𝑴𝑫🌴', sourceUrl: global.yt, thumbnail: await (await fetch(pp)).buffer() }}})
-//m.react('📍');
+    await conn.reply(m.chat, '*𝑪𝑨𝑹𝑮𝑨𝑵𝑫𝑶 𝑬𝑳 𝑴𝑬𝑵𝑼...*', fkon, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '💥 ¡𝗛𝗼𝗹𝗮!', body: '𝙆𝙞𝙢𝘽𝙤𝙩-𝙈𝘿❤️‍🩹', sourceUrl: global.yt, thumbnail: await (await fetch(pp)).buffer() }}})
+//m.react('🔰');
     await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
-  let txt =`*★ 𝒀𝒆𝒓𝒂𝒚𝑩𝒐𝒕-𝑴𝑫 ★*
+  let txt =`*★ 𝙆𝙞𝙢𝘽𝙤𝙩-𝑴𝑫 ★*
 
 
  ╭─ - ✦⢄⢁✩*⢄⢁✧ ----- ✦ -----✦ --- 
