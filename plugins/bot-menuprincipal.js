@@ -345,10 +345,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ╭─❒ 「 *COMANDOS 🔞* 」
  │•🔞 *_Labiblia_* 
  ╰───────────`;
-   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '𝒀𝒆𝒓𝒂𝒚𝑩𝒐𝒕-𝑴𝑫🌴', "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
+   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '𝙆𝙞𝙢𝘽𝙤𝙩-𝑴𝑫❤️‍🩹', "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen6, "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
  // m.react('🧩');
   } catch {
-    conn.reply(m.chat, '🧸 *Ocurrió Un Error*', m);
+    conn.reply(m.chat, '⚠️ 𝘽𝙚𝙗𝙚 𝙊𝙘𝙪𝙧𝙧𝙞𝙤 𝙐𝙣 𝙁𝙖𝙡𝙡𝙤', m);
   }
 };
 handler.help = ['menu'];
