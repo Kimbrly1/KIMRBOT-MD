@@ -69,9 +69,9 @@ global.gp4 = 'https://chat.whatsapp.com/GFJQei0YqQFCaxaGM6wwXW' //SebastianBot -
 
 global.channel = 'https://whatsapp.com/channel/0029VaWIVax2975INZkaGi0s' //Canal Oficial
 
-global.yt = 'https://www.youtube.com/@sebas.mvp_official' //Canal De Youtube
+global.ig1 = 'https://www.youtube.com/@sebas.mvp_official' //Instagram
 
-global.md = 'https://github.com/ale-rmz/YerayBot-MD' //Github Oficial
+global.ig = 'https://www.instagram.com/sebas.mvp_official0' //Github Oficial
 
 global.fb = 'https://www.facebook.com/profile.php?id=100091794702798' //Facebook Del Propietario
 
