@@ -191,17 +191,17 @@ let numeroTelefono
 if (!!phoneNumber) {
 numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
 if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
-console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Comience con el código de país de su número de WhatsApp, ejemplo: +593123456789\n")))
+console.log(chalk.bgBlack(chalk.bold.redBright("🚫 𝘾𝙊𝙈𝙄𝙀𝙉𝘾𝙀 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝘿𝙄𝙂𝙊 𝘿𝙀 𝙎𝙐 𝙋𝘼𝙄𝙎 𝘿𝙀 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋, 𝙀𝙅𝙀𝙈𝙋𝙇𝙊: +593123456789\n")))
 process.exit(0)
 }} else {
 while (true) {
-numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('🟢 Ingresa el número que sera bot\nPor ejemplo: +593123456789\n')))
+numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('🚫 𝙄𝙉𝙂𝙍𝙀𝙎𝘼 𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝙌𝙐𝙀 𝙎𝙀𝙍𝘼 𝘽𝙊𝙏\nPor ejemplo: +593123456789\n')))
 numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
 if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
 break 
 } else {
-console.log(chalk.bgBlack(chalk.bold.redBright("🟢 Por favor, escriba su número de WhatsApp.\nEjemplo: +593123456789.\n")))
+console.log(chalk.bgBlack(chalk.bold.redBright("🚫 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙎𝙐 𝙉𝙐𝙈𝙀𝙍𝙊 𝘿𝙀 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊: +593123456789.\n")))
 }}
 rl.close() 
 } 
@@ -209,15 +209,15 @@ rl.close()
         setTimeout(async () => {
             let codigo = await conn.requestPairingCode(numeroTelefono)
             codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
-            //console.log(chalk.yellow('🌸 Introduce el código de emparejamiento en WhatsApp.'));
-            console.log(chalk.black(chalk.bgGreen(`🤩 CÓDIGO DE VINCULACIÓN 🤩`)), chalk.black(chalk.white(codigo)))
+            //console.log(chalk.yellow('⚠️ 𝙄𝙉𝙏𝙍𝙊𝘿𝙐𝘾𝙀 𝙀𝙇 𝘾𝙊𝘿𝙄𝙂𝙊 𝘿𝙀 𝙀𝙈𝙋𝘼𝙍𝙀𝙅𝘼𝙈𝙄𝙀𝙉𝙏𝙊 𝘿𝙀 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋'));
+            console.log(chalk.black(chalk.bgGreen(`🤩 𝘾𝙊𝘿𝙄𝙂𝙊 𝘿𝙀 𝙑𝙄𝙉𝘾𝙐𝙇𝘼𝘾𝙄𝙊𝙉 🤩`)), chalk.black(chalk.white(codigo)))
         }, 3000)
 }}
 }
 
 conn.isInit = false;
 conn.well = false;
-conn.logger.info(`[ 🦋 ] Cargando...\n`);
+conn.logger.info(` ⚡  𝘾𝘼𝙍𝙂𝘼𝙉𝘿𝙊...\n`);
 
 if (!opts['test']) {
   if (global.db) {
@@ -325,7 +325,7 @@ async function connectionUpdate(update) {
   if (global.db.data == null) loadDatabase();
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
-    console.log(chalk.yellow('[ 🦋 ] Escanea el código QR.'));
+    console.log(chalk.yellow('🔰 𝙀𝙎𝘾𝘼𝙉𝙀𝘼 𝙀𝙇 𝘾𝙊𝘿𝙄𝙂𝙊 𝙌𝙍.'));
  }}
    if (connection == 'open') {
 console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 💥 • ┈ ┈ ┈ ┈ ┈╮\n┊ 🔰 CONEXIÓN EXITOSA CON WHATSAPP 🔰\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈  ┈╯\n'))
@@ -338,22 +338,22 @@ console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere 
 process.send('reset')}
 if (connection === 'close') {
     if (reason === DisconnectReason.badSession) {
-        conn.logger.error(`[ ⚠ ] Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
+        conn.logger.error(`⚠️ 𝙎𝙀𝙎𝙄𝙊𝙉 𝙄𝙉𝘾𝙊𝙍𝙍𝙀𝘾𝙏𝘼, 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍 𝙀𝙇𝙄𝙈𝙄𝙉𝘼 𝙇𝘼 𝘾𝘼𝙍𝙋𝙀𝙏𝘼 ${global.authFile} 𝙔 𝙀𝙎𝘾𝘼𝙉𝙀𝘼 𝙉𝙐𝙀𝙑𝘼𝙈𝙀𝙉𝙏𝙀`);
         //process.exit();
     } else if (reason === DisconnectReason.connectionClosed) {
-        conn.logger.warn(`[ ⚠ ] Conexión cerrada, reconectando...`);
+        conn.logger.warn(`⚠️ 𝘾𝙊𝙉𝙀𝙓𝙄𝙊𝙉 𝘾𝙀𝙍𝙍𝘼𝘿𝘼, 𝙍𝙀𝘾𝙊𝙉𝙀𝘾𝙏𝘼𝙉𝘿𝙊...`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionLost) {
-        conn.logger.warn(`[ ⚠ ] Conexión perdida con el servidor, reconectando...`);
+        conn.logger.warn(`⚠️ 𝘾𝙊𝙉𝙀𝙓𝙄𝙊𝙉 𝙋𝙀𝙍𝘿𝙄𝘿𝘼 𝘾𝙊𝙉 𝙀𝙇 𝙎𝙀𝙍𝙑𝙄𝘿𝙊𝙍, 𝙍𝙀𝘾𝙊𝙉𝙀𝘾𝙏𝘼𝙉𝘿𝙊...`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionReplaced) {
-        conn.logger.error(`[ ⚠ ] Conexión reemplazada, se ha abierto otra nueva sesión. Por favor, cierra la sesión actual primero.`);
+        conn.logger.error(`⚠️ 𝘾𝙊𝙉𝙀𝙓𝙄𝙊𝙉 𝙍𝙀𝙀𝙈𝙋𝙇𝘼𝙕𝘼𝘿𝘼, 𝙎𝙀 𝙃𝘼 𝘼𝘽𝙄𝙀𝙍𝙏𝙊 𝙉𝙐𝙀𝙑𝘼 𝙎𝙀𝙎𝙄𝙊𝙉. 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍, 𝘾𝙄𝙀𝙍𝙍𝘼 𝙇𝘼 𝙎𝙀𝙎𝙄𝙊𝙉 𝘼𝘾𝙏𝙐𝘼𝙇 𝙋𝙍𝙄𝙈𝙀𝙍𝙊.`);
         //process.exit();
     } else if (reason === DisconnectReason.loggedOut) {
-        conn.logger.error(`[ ⚠ ] Conexion cerrada, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`);
+        conn.logger.error(`⚠️ 𝙎𝙀𝙎𝙄𝙊𝙉 𝙄𝙉𝘾𝙊𝙍𝙍𝙀𝘾𝙏𝘼, 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍 𝙀𝙇𝙄𝙈𝙄𝙉𝘼 𝙇𝘼 𝘾𝘼𝙍𝙋𝙀𝙏𝘼 ${global.authFile} 𝙔 𝙀𝙎𝘾𝘼𝙉𝙀𝘼 𝙉𝙐𝙀𝙑𝘼𝙈𝙀𝙉𝙏𝙀.`);
         //process.exit();
     } else if (reason === DisconnectReason.restartRequired) {
-        conn.logger.info(`[ ⚠ ] Reinicio necesario, reinicie el servidor si presenta algún problema.`);
+        conn.logger.info(`⚠️ 𝙍𝙀𝙄𝙉𝙄𝘾𝙄𝙊 𝙉𝙀𝘾𝙀𝙎𝘼𝙍𝙄𝙊, reinicie el servidor si presenta algún problema.`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.timedOut) {
         conn.logger.warn(`[ ⚠ ] Tiempo de conexión agotado, reconectando...`);
