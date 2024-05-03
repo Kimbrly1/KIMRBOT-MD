@@ -328,7 +328,7 @@ if (opcion == '1' || methodCodeQR) {
     console.log(chalk.yellow('🔰 𝙀𝙎𝘾𝘼𝙉𝙀𝘼 𝙀𝙇 𝘾𝙊𝘿𝙄𝙂𝙊 𝙌𝙍.'));
  }}
    if (connection == 'open') {
-console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙔𝙚𝙧𝙖𝙮𝘽𝙤𝙩-𝙈𝘿 💥 • ┈ ┈ ┈ ┈ ┈╮\n┊ 🔰 CONEXIÓN EXITOSA CON WHATSAPP 🔰\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈  ┈╯\n'))
+console.log(chalk.greenBright('\n╭┈┈┈┈┈┈┈┈┈┈┈┈• 𝙆𝙞𝙢𝘽𝙤𝙩-𝙈𝘿 💥 •┈┈┈┈┈┈┈┈┈┈╮\n┊ 🔰 CONEXIÓN EXITOSA CON WHATSAPP 🔰\n╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╯\n'))
 //conn.fakeReply('593992402778@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy KimBot\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
@@ -338,22 +338,22 @@ console.log(chalk.bold.redBright(`[ ⚠ ] Conexión replazada, Por favor espere 
 process.send('reset')}
 if (connection === 'close') {
     if (reason === DisconnectReason.badSession) {
-        conn.logger.error(`⚠️ 𝙎𝙀𝙎𝙄𝙊𝙉 𝙄𝙉𝘾𝙊𝙍𝙍𝙀𝘾𝙏𝘼, 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍 𝙀𝙇𝙄𝙈𝙄𝙉𝘼 𝙇𝘼 𝘾𝘼𝙍𝙋𝙀𝙏𝘼 ${global.authFile} 𝙔 𝙀𝙎𝘾𝘼𝙉𝙀𝘼 𝙉𝙐𝙀𝙑𝘼𝙈𝙀𝙉𝙏𝙀`);
+        conn.logger.error(`⚠️ Sesión Incorrecta, Por Favor Elimine La Carpeta ${global.authFile} Y Escanea Nuevamente `);
         //process.exit();
     } else if (reason === DisconnectReason.connectionClosed) {
-        conn.logger.warn(`⚠️ 𝘾𝙊𝙉𝙀𝙓𝙄𝙊𝙉 𝘾𝙀𝙍𝙍𝘼𝘿𝘼, 𝙍𝙀𝘾𝙊𝙉𝙀𝘾𝙏𝘼𝙉𝘿𝙊...`);
+        conn.logger.warn(`⚠️ Conexión Cerrada, Reconectando...`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionLost) {
-        conn.logger.warn(`⚠️ 𝘾𝙊𝙉𝙀𝙓𝙄𝙊𝙉 𝙋𝙀𝙍𝘿𝙄𝘿𝘼 𝘾𝙊𝙉 𝙀𝙇 𝙎𝙀𝙍𝙑𝙄𝘿𝙊𝙍, 𝙍𝙀𝘾𝙊𝙉𝙀𝘾𝙏𝘼𝙉𝘿𝙊...`);
+        conn.logger.warn(`⚠️ Conexión Perdida Con El Servidor, Reconectando...`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.connectionReplaced) {
-        conn.logger.error(`⚠️ 𝘾𝙊𝙉𝙀𝙓𝙄𝙊𝙉 𝙍𝙀𝙀𝙈𝙋𝙇𝘼𝙕𝘼𝘿𝘼, 𝙎𝙀 𝙃𝘼 𝘼𝘽𝙄𝙀𝙍𝙏𝙊 𝙉𝙐𝙀𝙑𝘼 𝙎𝙀𝙎𝙄𝙊𝙉. 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍, 𝘾𝙄𝙀𝙍𝙍𝘼 𝙇𝘼 𝙎𝙀𝙎𝙄𝙊𝙉 𝘼𝘾𝙏𝙐𝘼𝙇 𝙋𝙍𝙄𝙈𝙀𝙍𝙊.`);
+        conn.logger.error(`⚠️ Conexión Reemplazada, Se Ha Abierto Nueva Sesión. Por Favor, Cierre La Sesión Actual.`);
         //process.exit();
     } else if (reason === DisconnectReason.loggedOut) {
-        conn.logger.error(`⚠️ 𝙎𝙀𝙎𝙄𝙊𝙉 𝙄𝙉𝘾𝙊𝙍𝙍𝙀𝘾𝙏𝘼, 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍 𝙀𝙇𝙄𝙈𝙄𝙉𝘼 𝙇𝘼 𝘾𝘼𝙍𝙋𝙀𝙏𝘼 ${global.authFile} 𝙔 𝙀𝙎𝘾𝘼𝙉𝙀𝘼 𝙉𝙐𝙀𝙑𝘼𝙈𝙀𝙉𝙏𝙀.`);
+        conn.logger.error(`⚠️ Sesión Incorrecta, Por Favor Elimina La Carpeta ${global.authFile} Y Escanea Nuevamente.`);
         //process.exit();
     } else if (reason === DisconnectReason.restartRequired) {
-        conn.logger.info(`⚠️ 𝙍𝙀𝙄𝙉𝙄𝘾𝙄𝙊 𝙉𝙀𝘾𝙀𝙎𝘼𝙍𝙄𝙊, reinicie el servidor si presenta algún problema.`);
+        conn.logger.info(`⚠️ Reinicio Necesario, reinicie el servidor si presenta algún problema.`);
         await global.reloadHandler(true).catch(console.error);
     } else if (reason === DisconnectReason.timedOut) {
         conn.logger.warn(`[ ⚠ ] Tiempo de conexión agotado, reconectando...`);
@@ -400,8 +400,8 @@ global.reloadHandler = async function(restatConn) {
 
 conn.welcome = '╔═════ @subject ═════╗\n╟☞ *𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗@ 𝗚𝗨𝗔𝗣@*\n╟☞ @user\n╟☞ 𝗕𝗕 𝗟𝗘𝗘 𝗟𝗔 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡: \n╚═══𝗞𝗶𝗺𝗕𝗼𝘁❤️‍🩹\n\n@desc';
     conn.bye = '╔══════════╗\n╟ @user\n╟☞ *-1 𝗟𝗘𝗦𝗕𝗜𝗔𝗡𝗔*\n╟☞ *𝙇𝙤 𝙑𝙞𝙤𝙡𝙤 𝙎𝙪 𝙏𝙞𝙤* 🤑\n╟☞ *𝙉𝙤 𝙏𝙚 𝙀𝙭𝙩𝙧𝙖𝙣̃𝙖𝙧𝙚𝙢𝙤𝙨*\n╚═══𝗞𝗶𝗺𝗕𝗼𝘁❤️‍🩹';
-  conn.spromote = '@user\n 𝙐𝙉/𝘼 𝙂𝙐𝘼𝙋@ 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝗔𝗗𝗠𝗜𝗡 𝗗𝗘 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢.';
-  conn.sdemote = '@user\n𝗗𝗘𝗝𝗔 𝗗𝗘 𝗦𝗘𝗥 𝗔𝗗𝗠𝗜𝗡 𝗘𝗡 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢 𝙋𝙊𝙍 𝙌𝙐𝙀 𝙉𝙊 𝙋𝙐𝙎𝙊 𝙋𝘼𝙍𝙀𝘿🥹.';
+  conn.spromote = '@user\n 𝙀𝙎𝙏@ 𝙂𝙐𝘼𝙋@ 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝗔𝗗𝗠𝗜𝗡 𝗗𝗘 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢.';
+  conn.sdemote = '@user\n𝗗𝗘𝗝𝗔 𝗗𝗘 𝗦𝗘𝗥 𝗔𝗗𝗠𝗜𝗡 𝗘𝗡 𝗘𝗦𝗧𝗘 𝗚𝗥𝗨𝗣𝗢 𝙋𝙊𝙍 𝙌𝙐𝙀 𝙉𝙊 𝙋𝙐𝙎𝙊 𝙋𝘼𝙍𝙀𝘿🤑.';
   conn.sDesc = '𝗟𝗔 𝗡𝗨𝗘𝗩𝗔 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡 𝗗𝗘𝗟 𝗚𝗥𝗨𝗣𝗢 𝗘𝗦 :\n\n@desc';
   conn.sSubject = '𝗘𝗟 𝗡𝗢𝗠𝗕𝗥𝗘 𝗗𝗘𝗟 𝗚𝗥𝗨𝗣𝗢 𝗖𝗔𝗠𝗕𝗜𝗢 𝗔 :\n@subject';
   conn.sIcon = '𝗦𝗘 𝗛𝗔 𝗖𝗔𝗠𝗕𝗜𝗔𝗗𝗢 𝗘𝗟 𝗜𝗖𝗢𝗡𝗢 𝗗𝗘𝗟 𝗚𝗥𝗨𝗣𝗢.';
