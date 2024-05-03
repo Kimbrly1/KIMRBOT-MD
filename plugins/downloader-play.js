@@ -18,7 +18,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
      𝙆𝙞𝙢𝘽𝙤𝙩-𝙈𝘿
 ⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊
   *【  𝙴𝙹𝙴𝙼𝙿𝙻𝙾  】*
-*${usedPrefix + command} 𝑪𝑮 𝑴𝒐𝒏𝒂𝒓𝒄𝒐 - 𝑵𝒐𝒄𝒉𝒆 𝑫𝒆 𝑨𝒅𝒐𝒍𝒆𝒄𝒆𝒏𝒕𝒆𝒔*`;
+*${usedPrefix + command} 𝙈𝙤𝙣 𝙇𝙖𝙛𝙚𝙧𝙩𝙚 - 𝘼𝙣𝙩𝙚𝙨 𝘿𝙚 𝙏𝙞 (𝙑𝙞𝙙𝙚𝙤 𝙊𝙛𝙞𝙘𝙞𝙖𝙡)*`;
   try {
     const yt_play = await search(args.join(' '));
     let additionalText = '';
